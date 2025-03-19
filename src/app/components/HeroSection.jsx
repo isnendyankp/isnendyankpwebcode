@@ -2,7 +2,9 @@ import React from 'react'
 
 const Herosection = () => {
   return (
-    <div>Herosection</div>
+    <section>
+      <h1 className="text-white">Portfolio Website</h1>
+    </section>
   )
 }
 
