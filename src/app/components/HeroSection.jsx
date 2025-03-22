@@ -13,7 +13,7 @@ const Herosection = () => {
 
             {/* image section */}
             <div className="col-span-5">
-                <div className="rounded-full">
+                <div className="rounded-full bg-[#181818]">
                     <Image src="/images/nendy.jpeg" alt="hero image" width={300} height={300} />
                 </div>
             </div>
