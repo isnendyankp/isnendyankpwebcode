@@ -13,7 +13,9 @@ const Herosection = () => {
 
             {/* image section */}
             <div className="col-span-5">
-                <Image src="/images/nendy.jpeg" alt="hero image" width={300} height={300} />
+                <div className="rounded-full">
+                    <Image src="/images/nendy.jpeg" alt="hero image" width={300} height={300} />
+                </div>
             </div>
         </div>
     </section>
