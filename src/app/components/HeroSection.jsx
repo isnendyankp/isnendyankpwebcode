@@ -9,6 +9,14 @@ const Herosection = () => {
             <div className="col-span-7 place-self-center">
                 <h1 className="text-white mb-4 text-6xl font-extrabold">Hello, I'm Nendy</h1>
                 <p className="text-[#ADB7BE] text-lg mb-6 lg:text-xl">I'm a software engineer based in Indonesia</p>
+                <div>
+                    <button>
+                        Hire Me
+                    </button>
+                    <button>
+                        Download CV
+                    </button>
+                </div>
             </div>
 
             {/* image section */}
