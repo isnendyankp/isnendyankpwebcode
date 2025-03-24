@@ -13,7 +13,7 @@ const Herosection = () => {
                     <button className="px-6 py-3 rounded-full mr-4 bg-white text-black hover:bg-slate-200">
                         Hire Me
                     </button>
-                    <button className="px-6 py-3 rounded-full bg-transparent text-white">
+                    <button className="px-6 py-3 rounded-full bg-transparent text-white border border-white">
                         Download CV
                     </button>
                 </div>
