@@ -8,7 +8,7 @@ const Herosection = () => {
             {/* Section Left */}
             <div className="col-span-7 place-self-center text-center sm:text-left">
                 <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">Hello, I'm Nendy</h1>
-                <p className="text-[#ADB7BE] text-lg mb-6 lg:text-xl">I'm a software engineer based in Indonesia</p>
+                <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">I'm a software engineer based in Indonesia</p>
                 <div>
                     <button className="px-6 py-3 rounded-full mr-4 bg-white text-black hover:bg-slate-200">
                         Hire Me
