@@ -10,10 +10,10 @@ const Herosection = () => {
                 <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">Hello, I'm Nendy</h1>
                 <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">I'm a software engineer based in Indonesia</p>
                 <div>
-                    <button className="px-6 py-3 rounded-full mr-4 bg-white text-black hover:bg-slate-200">
+                    <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white text-black hover:bg-slate-200">
                         Hire Me
                     </button>
-                    <button className="px-6 py-3 rounded-full bg-transparent text-white border border-white mt-3">
+                    <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent text-white border border-white mt-3">
                         Download CV
                     </button>
                 </div>
