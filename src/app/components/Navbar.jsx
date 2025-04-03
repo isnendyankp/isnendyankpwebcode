@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className="menu hidden md:block md:w-auto" id="navbar">
                 <ul>
                     <li><Link href="/">Home</Link></li>
-                    <li><Link href="/">About</Link></li>
+                    <li><Link href="#about">About</Link></li>
                 </ul>
             </div>
         </div>
