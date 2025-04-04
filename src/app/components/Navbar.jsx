@@ -2,6 +2,17 @@ import React from 'react'
 import Link from 'next/link'
 import NavLink from './NavLink';
 
+const navLinks = [
+    {
+        title: "Home",
+        href: "/",
+    },
+    {
+        title: "About",
+        href: "#about",
+    },
+]
+
 const Navbar = () => {
   return (
     <nav>
