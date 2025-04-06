@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="flex flex-wrap items-center justify-between mx-auto p-8">
             <Link href="/" className="text-5xl text-white font-semibold">LOGO</Link>
             <div className="menu block md:w-auto" id="navbar">
-                <ul className="flex p-4 md:p-0 flex-col md:flex-row space-y-8 md:space-y-0">
+                <ul className="flex p-4 md:p-0 flex-col md:flex-row space-y-8 md:space-x-8">
                     {navLinks.map((link, index) => (
                         <li key={index}>
                             <NavLink href={link.href} title={link.title} />
