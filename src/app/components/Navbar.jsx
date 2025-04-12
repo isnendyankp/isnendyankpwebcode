@@ -4,6 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import NavLink from './NavLink';
 import React, { useState } from "react";
+import { Bars3Icon } from "@heroicons/react/24/solid";
 
 const navLinks = [
     {
@@ -33,7 +34,7 @@ const Navbar = () => {
             <div className="mobile-menu block md:hidden">
                 [
                     navbarOpen ? (
-                        <button onClick={() => setNavbarOpen(false)}>Close</button>
+                        <button onClick={() => setNavbarOpen(false)}><Bars3Icon  /></button>
                     ) : (
                         <button onClick={() => setNavbarOpen(true)}>Menu</button>
                     )
