@@ -34,7 +34,7 @@ const Navbar = () => {
             <div className="mobile-menu block md:hidden">
                 [
                     navbarOpen ? (
-                        <button className="flex items-center px-3 py-2 border rounded border-slate-200" onClick={() => setNavbarOpen(false)}><Bars3Icon className="h-5 w-5"/></button>
+                        <button className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200" onClick={() => setNavbarOpen(false)}><Bars3Icon className="h-5 w-5"/></button>
                     ) : (
                         <button onClick={() => setNavbarOpen(true)}>Menu</button>
                     )
