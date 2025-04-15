@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MenuOverlay = () => {
+const MenuOverlay = ({ links}) => {
   return (
     <div>MenuOverlay</div>
   )
