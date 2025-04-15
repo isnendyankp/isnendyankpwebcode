@@ -2,7 +2,7 @@ import React from 'react'
 
 const MenuOverlay = ({ links}) => {
   return (
-    <ul>MenuOverlay</ul>
+    <ul className="flex flex-col py-4 items-center">MenuOverlay</ul>
   )
 }
 
