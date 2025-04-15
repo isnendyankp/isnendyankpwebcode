@@ -2,7 +2,7 @@ import React from 'react'
 
 const MenuOverlay = ({ links}) => {
   return (
-    <div>MenuOverlay</div>
+    <ul>MenuOverlay</ul>
   )
 }
 
