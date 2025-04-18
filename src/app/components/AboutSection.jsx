@@ -11,7 +11,7 @@ const AboutSection = () => {
                     About Me
                 </h2>
                 <p>
-                    Hello, I'm Isnendyan, a web developer with a passion for creating beautiful and functional websites. With a strong foundation in HTML, CSS, and JavaScript, I have experience in both front-end and back-end development. I am also proficient in various frameworks and libraries, allowing me to build scalable and maintainable applications. I am always looking for new challenges and opportunities to grow as a developer, and I am excited to see where my skills can take me.
+                    Hello, I'm Nendy, I am an Accounting graduate transitioning into a Front-End Engineer. I have previously completed RevoU’s Full-Stack Engineer Bootcamp, where I gained hands-on experience and skills. My recent work experience at Hijra Alami has allowed me to develop a versatile skill set, where I worked as a Freelance QA Automation Engineer ensuring a smooth transition for their core banking system, and then transitioned into a Front-End Engineer role in the finance and deposits division. In this role, I directly contributed to improving user experience and streamlining financial processes. I am proficient in front-end technologies such as Next.js, TypeScript, Playwright, and Tailwind CSS, and have an understanding of back-end technologies including Python, Poetry, Postman, and Flask. My combined experience in QA and Front-End Development, along with my ability to adapt quickly and contribute to critical projects, makes me a valuable asset to any team.
                 </p>
             </div>
         </div>
