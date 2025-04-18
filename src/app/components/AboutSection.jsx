@@ -10,6 +10,9 @@ const AboutSection = () => {
                 <h2>
                     About Me
                 </h2>
+                <p>
+                    Hello, I'm Isnendyan, a web developer with a passion for creating beautiful and functional websites. With a strong foundation in HTML, CSS, and JavaScript, I have experience in both front-end and back-end development. I am also proficient in various frameworks and libraries, allowing me to build scalable and maintainable applications. I am always looking for new challenges and opportunities to grow as a developer, and I am excited to see where my skills can take me.
+                </p>
             </div>
         </div>
     </section>
