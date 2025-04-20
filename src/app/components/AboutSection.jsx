@@ -17,7 +17,7 @@ const AboutSection = () => {
                 </p>
                 {/* Skills, Education, Experience */}
                 <div className="flex flex-row mt-8">
-                    <span>Skills</span>
+                    <span className="mr-3">Skills</span>
                     <span>Education</span>
                     <span>Experience</span>
                 </div>
