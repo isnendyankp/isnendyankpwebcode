@@ -9,7 +9,9 @@ const AboutSection = () => {
   const [startTransition, isPending] = useTransition()
 
   const handleTabChange = (id) => {
-    
+    startTransition(() => {
+      setTab(id)
+    })
   }
 
   return (
