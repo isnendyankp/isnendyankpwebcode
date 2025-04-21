@@ -1,9 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import { useState } from 'react'
+import { useState, useTransition } from 'react'
 
 const AboutSection = () => {
   const [tab, setTab] = useState("skills")
+  const [startTransition, isPending] = useTransition()
 
   return (
     <section className="text-white" id="about">
