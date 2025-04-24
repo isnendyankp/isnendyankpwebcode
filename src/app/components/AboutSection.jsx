@@ -30,9 +30,15 @@ const AboutSection = () => {
                 </p>
                 {/* Skills, Education, Experience */}
                 <div className="flex flex-row mt-8">
-                    <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}></TabButton>
-                    <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}></TabButton>
-                    <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experience"}></TabButton>
+                    <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
+                    {" "}Skills{" "}
+                    </TabButton>
+                    <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>
+                    {" "}Education{" "}
+                    </TabButton>
+                    <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experience"}>
+                    {" "}Experience{" "}
+                    </TabButton>
                     <span className="mr-3 font-semibold hover:text-white text-[#ADB7BE] border-purple-500">Skills</span>
                     <span>Education</span>
                     <span>Experience</span>
