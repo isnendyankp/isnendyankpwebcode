@@ -23,7 +23,7 @@ const AboutSection = () => {
                 {/* Title */}
                 <h2 className="text-4xl font-bold text-white mb-4">
                     About Me
-                </h2>
+                </ h2>
                 {/* Description */}
                 <p className="text-base lg:text-lg">
                     Hello, I'm Nendy, I am an Accounting graduate transitioning into a Front-End Engineer. I have previously completed RevoU’s Full-Stack Engineer Bootcamp, where I gained hands-on experience and skills. My recent work experience at Hijra Alami has allowed me to develop a versatile skill set, where I worked as a Freelance QA Automation Engineer ensuring a smooth transition for their core banking system, and then transitioned into a Front-End Engineer role in the finance and deposits division. In this role, I directly contributed to improving user experience and streamlining financial processes. I am proficient in front-end technologies such as Next.js, TypeScript, Playwright, and Tailwind CSS, and have an understanding of back-end technologies including Python, Poetry, Postman, and Flask. My combined experience in QA and Front-End Development, along with my ability to adapt quickly and contribute to critical projects, makes me a valuable asset to any team.
@@ -39,9 +39,6 @@ const AboutSection = () => {
                     <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experience"}>
                     {" "}Experience{" "}
                     </TabButton>
-                    <span className="mr-3 font-semibold hover:text-white text-[#ADB7BE] border-purple-500">Skills</span>
-                    <span>Education</span>
-                    <span>Experience</span>
                 </div>
             </div>
         </div>
