@@ -5,6 +5,10 @@ import Image from 'next/image'
 import { useState, useTransition } from 'react'
 import TabButton from './TabButton'
 
+const TAB_DATA = [
+    
+]
+
 const AboutSection = () => {
   const [tab, setTab] = useState("skills")
   const [startTransition, isPending] = useTransition()
