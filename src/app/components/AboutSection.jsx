@@ -36,7 +36,7 @@ const TAB_DATA = [
         id: "experience",
         content: (
           <ul className="list-disc pl-2">
-            
+            <li>Front End Engineer, Hijra Alami</li>
           </ul>
         ),
       },
