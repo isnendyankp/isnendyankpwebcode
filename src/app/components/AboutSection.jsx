@@ -31,6 +31,15 @@ const TAB_DATA = [
           </ul>
         ),
       },
+      {
+        title: "Experience",
+        id: "experience",
+        content: (
+          <ul className="list-disc pl-2">
+            
+          </ul>
+        ),
+      },
 ]
 
 const AboutSection = () => {
