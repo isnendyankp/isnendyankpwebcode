@@ -21,11 +21,13 @@ const TAB_DATA = [
         ),
       },
       {
-        title: "Experience",
-        id: "experience",
+        title: "Education",
+        id: "education",
         content: (
           <ul className="list-disc pl-2">
-            
+            <li>Full-stack Sofware Engineer, RevoU Faculty</li>
+            <li>Front End Engineering, Binar Academy Bootcamp</li>
+            <li>Bachelor of Science in Accounting, University of Islam Indonesia</li>
           </ul>
         ),
       },
