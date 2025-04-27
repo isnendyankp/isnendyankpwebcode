@@ -79,6 +79,10 @@ const AboutSection = () => {
                     {" "}Experience{" "}
                     </TabButton>
                 </div>
+                {/* Tab Content */}
+                <div>
+                    <TabContent id={tab} />
+                </div>
             </div>
         </div>
     </section>
