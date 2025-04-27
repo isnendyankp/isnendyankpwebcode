@@ -81,7 +81,7 @@ const AboutSection = () => {
                 </div>
                 {/* Tab Content */}
                 <div className="mt-8">
-                    <TabContent id={tab} />
+                    {TAB_DATA.find((t) => t.id === tab).content}
                 </div>
             </div>
         </div>
