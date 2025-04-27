@@ -80,7 +80,7 @@ const AboutSection = () => {
                     </TabButton>
                 </div>
                 {/* Tab Content */}
-                <div>
+                <div className="mt-8">
                     <TabContent id={tab} />
                 </div>
             </div>
