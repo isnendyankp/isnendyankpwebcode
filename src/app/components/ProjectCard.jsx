@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectCard = ({imgUrl}) => {
+const ProjectCard = ({imgUrl, title}) => {
   return (
     <div>
         {/* Image */}
