@@ -3,11 +3,15 @@ import React from 'react'
 const ProjectCard = ({imgUrl}) => {
   return (
     <div>
+        {/* Image */}
         <div 
             className="h-52 md:h-72"
             style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
         >
-
+        </div>
+        <div>
+            {/* Title */}
+            <h5>{title}</h5>
         </div>
     </div>
   )
