@@ -2,7 +2,11 @@ import React from 'react'
 
 const ProjectCard = () => {
   return (
-    <div>ProjectCard</div>
+    <div>
+        <div className="h-52 md:h-72">
+
+        </div>
+    </div>
   )
 }
 
