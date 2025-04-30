@@ -60,7 +60,12 @@ const projectsData = [
 const ProjectsSection = () => {
   return (
     <>
+    {/* Projects */}
     <h2>My Projects</h2>
+    {/* Mapping Projects */}
+    {projectsData.map((project) => (
+      <ProjectCard key={project.id} {...project} />
+    ))}
     </>
   )
 }
