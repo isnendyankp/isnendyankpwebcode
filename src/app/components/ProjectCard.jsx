@@ -12,6 +12,8 @@ const ProjectCard = ({imgUrl, title}) => {
         <div>
             {/* Title */}
             <h5>{title}</h5>
+            {/* Description */}
+            <p>{description}</p>
         </div>
     </div>
   )
