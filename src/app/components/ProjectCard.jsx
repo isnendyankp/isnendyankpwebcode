@@ -9,7 +9,7 @@ const ProjectCard = ({imgUrl, title}) => {
             style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
         >
         </div>
-        <div>
+        <div className="text-white">
             {/* Title */}
             <h5>{title}</h5>
             {/* Description */}
