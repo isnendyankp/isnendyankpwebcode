@@ -69,6 +69,7 @@ const ProjectsSection = () => {
       key={project.id} 
       title={project.title}
       description={project.description}
+      imageUrl={project.image}
       />
     ))}
     </div>
