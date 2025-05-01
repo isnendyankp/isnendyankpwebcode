@@ -70,6 +70,7 @@ const ProjectsSection = () => {
       title={project.title}
       description={project.description}
       imageUrl={project.image}
+      tags={project.tag}
       />
     ))}
     </div>
