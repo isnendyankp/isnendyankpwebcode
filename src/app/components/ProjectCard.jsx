@@ -5,7 +5,7 @@ const ProjectCard = ({imgUrl, title}) => {
     <div>
         {/* Image */}
         <div 
-            className="h-52 md:h-72 rounded-t-xl"
+            className="h-52 md:h-72 rounded-t-xl relative group"
             style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
         >
         </div>
