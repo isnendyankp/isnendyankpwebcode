@@ -13,7 +13,7 @@ const ProjectCard = ({imgUrl, title}) => {
             {/* Title */}
             <h5 className="text-xl font-semibold mb-2">{title}</h5>
             {/* Description */}
-            <p>{description}</p>
+            <p className="text-[#ADB7BE]">{description}</p>
         </div>
     </div>
   )
