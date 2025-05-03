@@ -8,7 +8,7 @@ const ProjectCard = ({imgUrl, title}) => {
             className="h-52 md:h-72 rounded-t-xl relative group"
             style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
         >
-            <div className="overlay absolute top-0 left-0">
+            <div className="overlay absolute top-0 left-0 w-full h-full">
             </div>
         </div>
         <div className="text-white rounded-b-xl bg-[#181818]py-6 px-4">
