@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { CodeBracketIcon } from '@heroicons/react/24/outline'
 
 const ProjectCard = ({imgUrl, title}) => {
   return (
@@ -11,6 +12,7 @@ const ProjectCard = ({imgUrl, title}) => {
         >
             <div className="overlay absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">  
             <Link>
+            <CodeBracketIcon />
             </Link>
             </div>
         </div>
