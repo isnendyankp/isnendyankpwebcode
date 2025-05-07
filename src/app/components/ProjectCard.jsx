@@ -12,7 +12,7 @@ const ProjectCard = ({imgUrl, title}) => {
         >
             <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">  
             <Link href="/" className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white">
-            <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] m-2 cursor-pointer group-hover:text-white" />
+            <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] m-2 absolute cursor-pointer group-hover:text-white" />
             </Link>
             </div>
         </div>
