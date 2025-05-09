@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline'
 
-const ProjectCard = ({imgUrl, title}) => {
+const ProjectCard = ({imgUrl, title, description}) => {
   return (
     <div>
         {/* Image */}
