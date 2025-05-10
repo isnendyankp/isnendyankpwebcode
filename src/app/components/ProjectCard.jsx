@@ -21,7 +21,7 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl}) => {
                 </Link>
             </div>
         </div>
-        <div className="text-white rounded-b-xl bg-[#181818]py-6 px-4">
+        <div className="text-white rounded-b-xl m-2 bg-[#181818]py-6 px-4">
             {/* Title */}
             <h5 className="text-xl font-semibold mb-2">{title}</h5>
             {/* Description */}
