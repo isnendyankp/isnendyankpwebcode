@@ -72,6 +72,7 @@ const ProjectsSection = () => {
       imageUrl={project.image}
       tags={project.tag}
       gitUrl={project.gitUrl}
+      previewUrl={project.previewUrl}
       />
     ))}
     </div>
