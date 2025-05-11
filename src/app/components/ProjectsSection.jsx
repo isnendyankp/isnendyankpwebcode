@@ -62,6 +62,11 @@ const ProjectsSection = () => {
     <>
     {/* Projects */}
     <h2>My Projects</h2>
+    {/* Filter */}
+    <div>
+        <button>ALL</button>
+        <button>Web</button>
+    </div>
     {/* Mapping Projects */}
     <div className="grid md:grid-cols-3 gap-8 md:gap-12">
     {projectsData.map((project) => (
