@@ -63,7 +63,7 @@ const ProjectsSection = () => {
     {/* Projects */}
     <h2>My Projects</h2>
     {/* Filter */}
-    <div>
+    <div className="text-white">
         <button>ALL</button>
         <button>Web</button>
     </div>
