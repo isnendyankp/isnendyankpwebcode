@@ -63,7 +63,7 @@ const ProjectsSection = () => {
     {/* Projects */}
     <h2>My Projects</h2>
     {/* Filter */}
-    <div className="text-white flex flex-row">
+    <div className="text-white flex flex-row justify-center items-center">
         <button>ALL</button>
         <button>Web</button>
     </div>
