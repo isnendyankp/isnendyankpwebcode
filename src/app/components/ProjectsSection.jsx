@@ -63,7 +63,7 @@ const ProjectsSection = () => {
     {/* Projects */}
     <h2>My Projects</h2>
     {/* Filter */}
-    <div className="text-white flex flex-row justify-center items-center gap-2">
+    <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <button>ALL</button>
         <button>Web</button>
     </div>
