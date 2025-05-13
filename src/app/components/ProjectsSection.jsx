@@ -64,7 +64,7 @@ const ProjectsSection = () => {
     <h2>My Projects</h2>
     {/* Filter */}
     <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <button className="rounded-full border-2 border-purple-500 px-6 py-6 text-xl cursor-pointer">ALL</button>
+        <button className="rounded-full border-2 border-purple-500 px-6 py-3 text-xl cursor-pointer">ALL</button>
         <button>Web</button>
     </div>
     {/* Mapping Projects */}
