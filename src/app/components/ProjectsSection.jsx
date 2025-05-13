@@ -65,9 +65,9 @@ const ProjectsSection = () => {
     {/* Filter */}
     <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <button className="rounded-full border-2 border-purple-500 px-6 py-3 text-xl cursor-pointer">ALL</button>
-        <button>Web</button>
+        <button className="rounded-full border-2 border-slate-600 px-6 py-3 text-xl cursor-pointer">Web</button>
     </div>
-    {/* Mapping Projects */}
+    {/* Mapping Projects */} 
     <div className="grid md:grid-cols-3 gap-8 md:gap-12">
     {projectsData.map((project) => (
       <ProjectCard 
