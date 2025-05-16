@@ -73,8 +73,10 @@ const ProjectsSection = () => {
       <h2>My Projects</h2>
       {/* Filter */}
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <ProjectTag>
-          ALL
+        <ProjectTag
+         onClick={handleTagChange}
+        >
+            ALL
         </ProjectTag>
       </div>
       {/* Mapping Projects */} 
