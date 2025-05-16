@@ -60,7 +60,12 @@ const projectsData = [
   ];
 
 const ProjectsSection = () => {
+    // state    
     const [tag, setTag] = useState("All");
+    // handle tag change
+    const handleTagChange = (newTag) => {
+        setTag(newTag);
+        };
   return (
     <>
     {/* Projects */}
