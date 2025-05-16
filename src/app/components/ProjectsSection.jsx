@@ -77,9 +77,7 @@ const ProjectsSection = () => {
          onClick={handleTagChange}
          tag="All"
          active={tag}
-        >
-            ALL
-        </ProjectTag>
+        />
       </div>
       {/* Mapping Projects */} 
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
