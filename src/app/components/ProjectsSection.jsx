@@ -76,6 +76,7 @@ const ProjectsSection = () => {
         <ProjectTag
          onClick={handleTagChange}
          tag="All"
+         active={tag}
         >
             ALL
         </ProjectTag>
