@@ -1,6 +1,7 @@
 "use client";
 import React from 'react'
 import { useState } from "react";
+import ProjectTag from "./ProjectTag";
 
 const projectsData = [
     {
@@ -68,27 +69,28 @@ const ProjectsSection = () => {
         };
   return (
     <>
-    {/* Projects */}
-    <h2>My Projects</h2>
-    {/* Filter */}
-    <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <button className="rounded-full border-2 border-purple-500 px-6 py-3 text-xl cursor-pointer">ALL</button>
-        <button className="rounded-full border-2 border-slate-600 hover:border-white px-6 py-3 text-xl cursor-pointer">Web</button>
-    </div>
-    {/* Mapping Projects */} 
-    <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-    {projectsData.map((project) => (
-      <ProjectCard 
-      key={project.id} 
-      title={project.title}
-      description={project.description}
-      imageUrl={project.image}
-      tags={project.tag}
-      gitUrl={project.gitUrl}
-      previewUrl={project.previewUrl}
-      />
-    ))}
-    </div>
+      {/* Projects */}
+      <h2>My Projects</h2>
+      {/* Filter */}
+      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+        <ProjectTag>
+          ALL
+        </ProjectTag>
+      </div>
+      {/* Mapping Projects */} 
+      <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+        {projectsData.map((project) => (
+          <ProjectCard 
+            key={project.id} 
+            title={project.title}
+            description={project.description}
+            imageUrl={project.image}
+            tags={project.tag}
+            gitUrl={project.gitUrl}
+            previewUrl={project.previewUrl}
+          />
+        ))}
+      </div>
     </>
   )
 }
