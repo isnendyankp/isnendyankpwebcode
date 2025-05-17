@@ -85,6 +85,12 @@ const ProjectsSection = () => {
          tag="Web"
          isSelected={tag === "Web"}
         />
+        {/* Mobile */}
+        <ProjectTag
+         onClick={handleTagChange}
+         tag="Mobile"
+         isSelected={tag === "Mobile"}
+        />
       </div>
       {/* Mapping Projects */} 
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
