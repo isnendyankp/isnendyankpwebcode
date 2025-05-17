@@ -76,7 +76,7 @@ const ProjectsSection = () => {
         <ProjectTag
          onClick={handleTagChange}
          tag="All"
-         active={tag}
+         isSelected={tag === "All"}
         />
       </div>
       {/* Mapping Projects */} 
