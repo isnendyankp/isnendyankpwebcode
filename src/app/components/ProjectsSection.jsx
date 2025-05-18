@@ -98,7 +98,7 @@ const ProjectsSection = () => {
       </div>
       {/* Mapping Projects */} 
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-        {projectsData.map((project) => (
+        {filteredProjects.map((project) => (
           <ProjectCard 
             key={project.id} 
             title={project.title}
