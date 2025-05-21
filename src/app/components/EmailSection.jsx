@@ -6,7 +6,7 @@ const EmailSection = () => {
         <div>
             <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md"> Let's connect and let's build something great together</p>
-            <button>Contact Me</button>
+            <button className="text-[#ADB7BE]">Contact Me</button>
         </div>
     </section>
   )
