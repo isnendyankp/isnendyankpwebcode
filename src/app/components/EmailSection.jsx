@@ -7,6 +7,11 @@ const EmailSection = () => {
             <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md"> Let's connect and let's build something great together</p>
             <button className="text-[#ADB7BE] hover:text-white">Contact Me</button>
+
+            {/* icon social contact */}
+            <div className="socials">
+                
+            </div>
         </div>
     </section>
   )
