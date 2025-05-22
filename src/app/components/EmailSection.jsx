@@ -10,7 +10,7 @@ const EmailSection = () => {
             <button className="text-[#ADB7BE] hover:text-white">Contact Me</button>
 
             {/* icon social contact */}
-            <div className="socials">
+            <div className="socials flex flex-row">
             <Link href="github.com"></Link>
 
             </div>
