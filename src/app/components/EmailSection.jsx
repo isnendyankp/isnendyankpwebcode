@@ -10,7 +10,8 @@ const EmailSection = () => {
 
             {/* icon social contact */}
             <div className="socials">
-                
+            <Link href="github.com"></Link>
+
             </div>
         </div>
     </section>
