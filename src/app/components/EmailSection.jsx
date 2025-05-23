@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import GithubIcon from "../../../public/github-icon.svg";
 
 const EmailSection = () => {
   return (
