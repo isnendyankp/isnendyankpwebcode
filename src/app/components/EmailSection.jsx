@@ -11,7 +11,9 @@ const EmailSection = () => {
 
             {/* icon social contact */}
             <div className="socials flex flex-row">
-            <Link href="github.com"></Link>
+                <Link href="github.com">
+                    <Image src={GithubIcon} />
+                </Link>
 
             </div>
         </div>
