@@ -2,6 +2,7 @@
 import React from 'react'
 import { useState } from "react";
 import ProjectTag from "./ProjectTag";
+import ProjectCard from "./ProjectCard";
 
 const projectsData = [
     {
@@ -103,7 +104,7 @@ const ProjectsSection = () => {
             key={project.id} 
             title={project.title}
             description={project.description}
-            imageUrl={project.image}
+            imgUrl={project.image}
             tags={project.tag}
             gitUrl={project.gitUrl}
             previewUrl={project.previewUrl}
