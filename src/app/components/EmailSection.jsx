@@ -14,7 +14,9 @@ const EmailSection = () => {
             </p>
             
             {/* icon social contact */}
-            
+            <p className="text-[#ADB7BE] mb-4 max-w-md">
+              Check out my work on GitHub and connect with me on LinkedIn below:
+            </p>
             <div className="socials flex flex-row gap-2">
                 <Link href="https://github.com/isnendyankp" target="_blank" rel="noopener noreferrer">
                     <Image src={GithubIcon} alt="Github Icon" />
