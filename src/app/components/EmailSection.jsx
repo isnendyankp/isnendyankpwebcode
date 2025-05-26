@@ -10,8 +10,7 @@ const EmailSection = () => {
         <div>
             <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md"> Let's connect and let's build something great together</p>
-            <button className="text-[#ADB7BE] hover:text-white">Contact Me</button>
-
+            
             {/* icon social contact */}
             <div className="socials flex flex-row gap-2">
                 <Link href="https://github.com/isnendyankp" target="_blank" rel="noopener noreferrer">
