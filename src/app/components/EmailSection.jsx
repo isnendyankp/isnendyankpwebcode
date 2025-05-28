@@ -8,7 +8,7 @@ const EmailSection = () => {
   return (
     <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4">
         {/* Animate from left */}
-        <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg animate-pulse">
+        <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute animate-pulse">
 
         </div>
 
