@@ -16,7 +16,9 @@ const EmailSection = () => {
 
         {/* Contact section */}
         <div className="z-10">
-            <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
+            <h5 className="text-xl font-bold text-white my-2">
+            Let&apos;s Connect
+            </h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md">
               I&apos;m currently seeking roles as a Front-end Developer and QA Automation Engineer. Feel free to connect with me!
             </p>
