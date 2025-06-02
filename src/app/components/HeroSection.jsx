@@ -29,7 +29,8 @@ const Herosection = () => {
                     />  
                 </h1>
                 <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                    I'm a software engineer based in Indonesia
+                    I'm a software engineer based in Indonesia specializing in
+                    <span className="text-white"> Software Engineer | Frontend Web Developer | QA Automation</span>
                 </p>
                 <div>
                     <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-blue-700 to-indigo-300 text-white hover:bg-slate-200">
