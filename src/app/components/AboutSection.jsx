@@ -17,6 +17,7 @@ const TAB_DATA = [
             <li>React</li>
             <li>Next.js</li>
             <li>Tailwind CSS</li>
+            <li>Playwright</li>
           </ul>
         ),
       },
