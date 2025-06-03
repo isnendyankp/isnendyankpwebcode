@@ -23,6 +23,10 @@ const TAB_DATA = [
               <span className="font-bold text-blue-500">Database Management:</span>
               <span className="ml-2">Dbeaver, MySQL</span>
             </li>
+            <li>
+              <span className="font-bold text-blue-500">Deployment Platform:</span>
+              <span className="ml-2">Netlify, Railway</span>
+            </li>
           </ul>
         ),
       },
