@@ -10,14 +10,11 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-          <ul className="list-disc pl-2">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Next.js</li>
-            <li>Tailwind CSS</li>
-            <li>Playwright</li>
+          <ul className="space-y-4">
+            <li>
+              <span className="font-bold text-blue-500">Programming Languages:</span>
+              <span className="ml-2">JavaScript, TypeScript, Python, HTML, CSS</span>
+            </li>
           </ul>
         ),
       },
