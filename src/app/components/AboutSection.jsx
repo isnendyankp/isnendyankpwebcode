@@ -19,6 +19,10 @@ const TAB_DATA = [
               <span className="font-bold text-blue-500">Framework / Library:</span>
               <span className="ml-2">ReactJS, NodeJS, NextJS, Tailwind, Poetry, Flask, Playwright</span>
             </li>
+            <li>
+              <span className="font-bold text-blue-500">Database Management:</span>
+              <span className="ml-2">Dbeaver, MySQL</span>
+            </li>
           </ul>
         ),
       },
