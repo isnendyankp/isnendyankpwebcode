@@ -27,6 +27,10 @@ const TAB_DATA = [
               <span className="font-bold text-blue-500">Deployment Platform:</span>
               <span className="ml-2">Netlify, Railway</span>
             </li>
+            <li>
+              <span className="font-bold text-blue-500">Version Control System:</span>
+              <span className="ml-2">Github</span>
+            </li>
           </ul>
         ),
       },
