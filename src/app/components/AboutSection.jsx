@@ -31,6 +31,10 @@ const TAB_DATA = [
               <span className="font-bold text-blue-500">Version Control System:</span>
               <span className="ml-2">Github</span>
             </li>
+            <li>
+              <span className="font-bold text-blue-500">Documentation Tools:</span>
+              <span className="ml-2">Markdown, Postman</span>
+            </li>
           </ul>
         ),
       },
