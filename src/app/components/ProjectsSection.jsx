@@ -7,8 +7,8 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
     {
       id: 1,
-      title: "React Portfolio Website",
-      description: "Project 1 description",
+      title: "Masakin Website",
+      description: "Masakin Website",
       image: "/images/projects/Masakin.png",
       tag: ["All", "Web"],
       gitUrl: "/",
