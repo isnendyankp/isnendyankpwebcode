@@ -11,7 +11,7 @@ const projectsData = [
       description: "Masakin Website",
       image: "/images/projects/Masakin.png",
       tag: ["All", "Web"],
-      gitUrl: "/",
+      gitUrl: "https://masakin-fe-irfans-projects-8d4765df.vercel.app//",
       previewUrl: "/",
     },
     {
