@@ -12,7 +12,7 @@ const projectsData = [
       image: "/images/projects/Masakin.png",
       tag: ["All", "Web"],
       gitUrl: "https://masakin-fe-irfans-projects-8d4765df.vercel.app//",
-      previewUrl: "/",
+      previewUrl: "/images/projects/Masakin.png",
     },
     {
       id: 2,
