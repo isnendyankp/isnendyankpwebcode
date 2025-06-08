@@ -17,7 +17,7 @@ const TAB_DATA = [
             </li>
             <li>
               <span className="font-bold text-blue-500">Framework / Library:</span>
-              <span className="ml-2">ReactJS, NodeJS, NextJS, Tailwind, Poetry, Flask, Playwright</span>
+              <span className="ml-2">ReactJS, NodeJS, NextJS, Tailwind, Poetry, Flask, Playwright.</span>
             </li>
             <li>
               <span className="font-bold text-blue-500">Database Management:</span>
