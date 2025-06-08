@@ -13,7 +13,7 @@ const TAB_DATA = [
           <ul className="space-y-4">
             <li>
               <span className="font-bold text-blue-500">Programming Languages:</span>
-              <span className="ml-2">JavaScript, TypeScript, Python, HTML, CSS</span>
+              <span className="ml-2">JavaScript, TypeScript, Python, HTML, CSS.</span>
             </li>
             <li>
               <span className="font-bold text-blue-500">Framework / Library:</span>
