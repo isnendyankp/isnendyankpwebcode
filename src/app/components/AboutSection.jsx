@@ -33,7 +33,7 @@ const TAB_DATA = [
             </li>
             <li>
               <span className="font-bold text-blue-500">Documentation Tools:</span>
-              <span className="ml-2">Markdown, Postman</span>
+              <span className="ml-2">Markdown, Postman.</span>
             </li>
           </ul>
         ),
