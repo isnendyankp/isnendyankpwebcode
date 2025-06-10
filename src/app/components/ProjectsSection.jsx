@@ -13,6 +13,7 @@ const projectsData = [
       tag: ["All", "Web"],
       gitUrl: "https://masakin-fe-irfans-projects-8d4765df.vercel.app//",
       previewUrl: "/images/projects/Masakin.png",
+      repoUrl: "https://github.com/isnendyankp/masakin_FE",
     },
     {
       id: 2,
@@ -110,6 +111,7 @@ const ProjectsSection = () => {
             tags={project.tag}
             gitUrl={project.gitUrl}
             previewUrl={project.previewUrl}
+            repoUrl={project.repoUrl}
           />
         ))}
       </div>
