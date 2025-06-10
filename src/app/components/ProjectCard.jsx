@@ -25,8 +25,18 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl, repoUrl}) 
             {/* Title */}
             <h5 className="text-xl font-semibold mb-2">{title}</h5>
             {/* Description */}
-                        <p className="text-[#ADB7BE]">{description}</p>
-            
+            <p className="text-[#ADB7BE]">{description}</p>
+            {/* Repo Link */}
+            {repoUrl && (
+              <a
+                href={repoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                
+              >
+                View Source Code
+              </a>
+            )}
         </div>
     </div>
   )
