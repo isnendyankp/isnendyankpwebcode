@@ -32,7 +32,7 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl, repoUrl}) 
                 href={repoUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                
+                className="text-blue-400 hover:underline mt-2 inline-block"
               >
                 View Source Code
               </a>
