@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline'
 
 const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl, repoUrl}) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleReadMore = () => {
+    setIsExpanded(!isExpanded);
+  };
   return (
     <div>
         {/* Image */}
@@ -31,12 +36,24 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl, repoUrl}) 
               ) : (
                 <>
                   <p>{description.intro}</p>
-                  <ul className="list-disc pl-5">
-                    {description.features.map((feature, index) => (
-                      <li key={index}>{feature}</li>
-                    ))}
-                  </ul>
-                  <p>{description.outro}</p>
+                  {description.features && description.features.length > 0 && (
+                    <ul className="list-disc pl-5 mt-2">
+                      {description.features.map((feature, index) => (
+                        <li key={index}>{feature}</li>
+                      ))}
+                    </ul>
+                  )}
+                  {description.outro && (
+                    <>
+                      {isExpanded && <p className="mt-2">{description.outro}</p>}
+                      <button
+                        onClick={toggleReadMore}
+                        className="text-blue-400 hover:underline mt-2 inline-block text-xs"
+                      >
+                        {isExpanded ? "Show Less" : "Continue Reading..."}
+                      </button>
+                    </>
+                  )}
                 </>
               )}
             </div>
