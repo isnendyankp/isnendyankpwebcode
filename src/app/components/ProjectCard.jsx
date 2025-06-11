@@ -36,23 +36,25 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl, repoUrl}) 
               ) : (
                 <>
                   <p>{description.intro}</p>
-                  {description.features && description.features.length > 0 && (
-                    <ul className="list-disc pl-5 mt-2">
-                      {description.features.map((feature, index) => (
-                        <li key={index}>{feature}</li>
-                      ))}
-                    </ul>
+                  {isExpanded && (
+                    <div className="space-y-2 mt-2">
+                      {description.features && description.features.length > 0 && (
+                        <ul className="list-disc pl-5">
+                          {description.features.map((feature, index) => (
+                            <li key={index}>{feature}</li>
+                          ))}
+                        </ul>
+                      )}
+                      {description.outro && <p>{description.outro}</p>}
+                    </div>
                   )}
-                  {description.outro && (
-                    <>
-                      {isExpanded && <p className="mt-2">{description.outro}</p>}
-                      <button
-                        onClick={toggleReadMore}
-                        className="text-blue-400 hover:underline mt-2 inline-block text-xs"
-                      >
-                        {isExpanded ? "Show Less" : "Continue Reading..."}
-                      </button>
-                    </>
+                  {(description.features || description.outro) && (
+                    <button
+                      onClick={toggleReadMore}
+                      className="text-blue-400 hover:underline mt-2 inline-block text-xs"
+                    >
+                      {isExpanded ? "Show Less" : "Continue Reading..."}
+                    </button>
                   )}
                 </>
               )}
