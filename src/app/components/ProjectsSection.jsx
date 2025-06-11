@@ -8,7 +8,15 @@ const projectsData = [
     {
       id: 1,
       title: "Masakin Website",
-      description: "Masakin Website",
+      description: {
+        intro: "A mobile-friendly website to make cooking easier. Masakin helps you find dishes, explore regional cuisines, and master new meals with detailed recipes and ingredient lists.",
+        features: [
+          "Search for specific food types and explore regional dishes.",
+          "View detailed food descriptions and step-by-step recipes.",
+          "Get a complete list of required ingredients for any meal."
+        ],
+        outro: "I developed key components for this project, including the Landing Page, Registration, and Recipe pages."
+      },
       image: "/images/projects/Masakin.png",
       tag: ["All", "Web"],
       gitUrl: "https://masakin-fe-irfans-projects-8d4765df.vercel.app//",
