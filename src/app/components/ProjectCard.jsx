@@ -25,7 +25,21 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl, repoUrl}) 
             {/* Title */}
             <h5 className="text-xl font-semibold mb-2">{title}</h5>
             {/* Description */}
-            <p className="text-[#ADB7BE]">{description}</p>
+            <div className="text-[#ADB7BE] text-sm space-y-2">
+              {typeof description === 'string' ? (
+                <p>{description}</p>
+              ) : (
+                <>
+                  <p>{description.intro}</p>
+                  <ul className="list-disc pl-5">
+                    {description.features.map((feature, index) => (
+                      <li key={index}>{feature}</li>
+                    ))}
+                  </ul>
+                  <p>{description.outro}</p>
+                </>
+              )}
+            </div>
             {/* Repo Link */}
             {repoUrl && (
               <a
