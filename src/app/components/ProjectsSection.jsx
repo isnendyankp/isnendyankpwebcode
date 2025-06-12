@@ -19,9 +19,9 @@ const projectsData = [
       },
       image: "/images/projects/Masakin.png",
       tag: ["All", "Web"],
-      gitUrl: "https://masakin-fe-irfans-projects-8d4765df.vercel.app//",
+      deployUrl: "https://masakin-fe-irfans-projects-8d4765df.vercel.app//",
       previewUrl: "/images/projects/Masakin.png",
-      repoUrl: "https://github.com/isnendyankp/masakin_FE",
+      gitUrl: "https://github.com/isnendyankp/masakin_FE",
     },
     {
       id: 2,
@@ -118,8 +118,8 @@ const ProjectsSection = () => {
             imgUrl={project.image}
             tags={project.tag}
             gitUrl={project.gitUrl}
+            deployUrl={project.deployUrl}
             previewUrl={project.previewUrl}
-            repoUrl={project.repoUrl}
           />
         ))}
       </div>
