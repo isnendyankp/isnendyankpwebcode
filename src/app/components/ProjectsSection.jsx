@@ -30,7 +30,7 @@ const projectsData = [
       image: "/images/projects/2.png",
       tag: ["All", "Web"],
       deployUrl: "https://purewater-revou.netlify.app/",
-      gitUrl: "/",
+      gitUrl: "https://github.com/isnendyankp/RevoU-Final-Project-FE-Group-D/",
       previewUrl: "/",
     },
     {
