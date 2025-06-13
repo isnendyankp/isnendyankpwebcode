@@ -26,7 +26,7 @@ const projectsData = [
     {
       id: 2,
       title: "Pure Water Website",
-      description: "Project 2 description",
+      description: "The Purewater Website is front end application built using Next JS and Typescript to help manage website about commercial products related to clean water sanitation.",
       image: "/images/projects/2.png",
       tag: ["All", "Web"],
       gitUrl: "/",
