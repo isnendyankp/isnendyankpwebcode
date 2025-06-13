@@ -29,6 +29,7 @@ const projectsData = [
       description: "The Purewater Website is front end application built using Next JS and Typescript to help manage website about commercial products related to clean water sanitation.",
       image: "/images/projects/2.png",
       tag: ["All", "Web"],
+      deployUrl: "https://purewater-revou.netlify.app/",
       gitUrl: "/",
       previewUrl: "/",
     },
