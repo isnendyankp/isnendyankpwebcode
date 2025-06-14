@@ -15,7 +15,7 @@ const projectsData = [
           "View detailed food descriptions and step-by-step recipes.",
           "Get a complete list of required ingredients for any meal."
         ],
-        outro: "I developed key components for this project, including the Landing Page, Registration, and Recipe pages."
+        
       },
       image: "/images/projects/Masakin.png",
       tag: ["All", "Web"],
@@ -26,7 +26,15 @@ const projectsData = [
     {
       id: 2,
       title: "Pure Water Website",
-      description: "The Purewater Website is front end application built using Next JS and Typescript to help manage website about commercial products related to clean water sanitation.",
+      description: {
+        intro: "A user-friendly website showcasing a range of water filtration products designed to provide cleaner, safer water for everyday household needs.",
+        features: [
+          "Browse a catalog of water purification systems and accessories.",
+          "Learn about the benefits of water filtration and different purification technologies.",
+          "User account management for a personalized experience (e.g., order history, preferences)."
+        ],
+        outro: "I was responsible for developing the secure and efficient login and registration sections for this platform."
+      },
       image: "/images/projects/purewater.png",
       tag: ["All", "Web"],
       deployUrl: "https://purewater-revou.netlify.app/",
