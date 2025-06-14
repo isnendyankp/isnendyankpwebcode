@@ -15,7 +15,7 @@ const projectsData = [
           "View detailed food descriptions and step-by-step recipes.",
           "Get a complete list of required ingredients for any meal."
         ],
-        
+        outro: "I developed key components for this project, including the Landing Page, Registration, and Recipe pages."
       },
       image: "/images/projects/Masakin.png",
       tag: ["All", "Web"],
