@@ -56,7 +56,7 @@ const TAB_DATA = [
           <ul className="list-disc pl-2">
             <li>Front End Engineer at Hijra Alami.</li>
             <li>QA Automation at Hijra Alami.</li>
-            <li>Front-End Developer Internship, Revou Next</li>
+            <li>Front-End Developer Internship at Revou Next.</li>
           </ul>
         ),
       },
