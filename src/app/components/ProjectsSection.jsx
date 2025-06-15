@@ -20,7 +20,6 @@ const projectsData = [
       image: "/images/projects/Masakin.png",
       tag: ["All", "Web"],
       deployUrl: "https://masakin-fe-irfans-projects-8d4765df.vercel.app//",
-      previewUrl: "/images/projects/Masakin.png",
       gitUrl: "https://github.com/isnendyankp/masakin_FE",
     },
     {
@@ -39,8 +38,7 @@ const projectsData = [
       tag: ["All", "Web"],
       deployUrl: "https://purewater-revou.netlify.app/",
       gitUrl: "https://github.com/isnendyankp/RevoU-Final-Project-FE-Group-D/",
-      previewUrl: "/images/projects/purewater.png",
-    },
+      },
     {
       id: 3,
       title: "E-commerce Application",
@@ -48,8 +46,7 @@ const projectsData = [
       image: "/images/projects/3.png",
       tag: ["All", "Web"],
       gitUrl: "/",
-      previewUrl: "/",
-    },
+      },
     {
       id: 4,
       title: "Food Ordering Application",
@@ -57,8 +54,7 @@ const projectsData = [
       image: "/images/projects/4.png",
       tag: ["All", "Mobile"],
       gitUrl: "/",
-      previewUrl: "/",
-    },
+      },
     {
       id: 5,
       title: "React Firebase Template",
@@ -66,8 +62,7 @@ const projectsData = [
       image: "/images/projects/5.png",
       tag: ["All", "Web"],
       gitUrl: "/",
-      previewUrl: "/",
-    },
+      },
     {
       id: 6,
       title: "Full-stack Roadmap",
@@ -75,8 +70,7 @@ const projectsData = [
       image: "/images/projects/6.png",
       tag: ["All", "Web"],
       gitUrl: "/",
-      previewUrl: "/",
-    },
+      },
   ];
 
 const ProjectsSection = () => {
@@ -128,8 +122,7 @@ const ProjectsSection = () => {
             tags={project.tag}
             gitUrl={project.gitUrl}
             deployUrl={project.deployUrl}
-            previewUrl={project.previewUrl}
-          />
+            />
         ))}
       </div>
     </section>

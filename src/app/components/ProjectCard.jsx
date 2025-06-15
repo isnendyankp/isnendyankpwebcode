@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline'
 
-const ProjectCard = ({imgUrl, title, description, gitUrl, deployUrl, previewUrl}) => {
+const ProjectCard = ({imgUrl, title, description, gitUrl, deployUrl}) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleReadMore = () => {
