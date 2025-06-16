@@ -45,7 +45,7 @@ const TAB_DATA = [
           <ul className="list-disc pl-2">
             <li>Full-stack Sofware Engineer at RevoU Faculty.</li>
             <li>Front End Engineering at Binar Academy Bootcamp.</li>
-            <li>Bachelor of Science in Accounting at University of Islam Indonesia</li>
+            <li>Bachelor of Science in Accounting at University of Islam Indonesia.</li>
           </ul>
         ),
       },
