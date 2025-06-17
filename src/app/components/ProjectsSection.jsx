@@ -43,7 +43,7 @@ const projectsData = [
       id: 3,
       title: "Animated Template",
       description: "In this project, I learn how to use AOS (animation on scroll) & add inside HTML. And also this project uses Unsplash images and random user images.",
-      image: "/images/projects/3.png",
+      image: "/images/projects/Animated_Template.png",
       tag: ["All", "Web"],
       gitUrl: "/",
       },
