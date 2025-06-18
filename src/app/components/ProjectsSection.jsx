@@ -50,7 +50,7 @@ const projectsData = [
       },
     {
       id: 4,
-      title: "Food Ordering Application",
+      title: "Calculator",
       description: "Project 4 description",
       image: "/images/projects/4.png",
       tag: ["All", "Mobile"],
