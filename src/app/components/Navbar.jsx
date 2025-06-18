@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from 'next/link';
+import Image from 'next/image';
 import NavLink from './NavLink';
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
@@ -31,7 +32,9 @@ const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
             <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-                <Link href="/" className="text-2xl md:text-5xl text-white font-semibold">LOGO</Link>
+                <Link href="/" className="text-2xl md:text-5xl text-white font-semibold">
+                        <Image src="/images/projects/Logo.png" alt="Logo" width={50} height={50} />
+                    </Link>
                 <div className="mobile-menu block md:hidden">
                     {
                         navbarOpen ? (
