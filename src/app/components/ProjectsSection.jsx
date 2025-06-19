@@ -54,6 +54,7 @@ const projectsData = [
       description: "In this project, I learned how to create calculator project.",
       image: "/images/projects/Calculator.png",
       tag: ["All", "Mobile"],
+      deployUrl: "https://isnendyankp.github.io/calculator.github.io/",
       gitUrl: "/",
       },
     {
