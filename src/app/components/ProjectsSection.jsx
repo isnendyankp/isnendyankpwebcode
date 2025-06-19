@@ -52,7 +52,7 @@ const projectsData = [
       id: 4,
       title: "Calculator",
       description: "In this project, I learned how to create calculator project.",
-      image: "/images/projects/4.png",
+      image: "/images/projects/Calculator.png",
       tag: ["All", "Mobile"],
       gitUrl: "/",
       },
