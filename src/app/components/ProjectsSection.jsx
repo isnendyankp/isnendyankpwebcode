@@ -51,7 +51,7 @@ const projectsData = [
     {
       id: 4,
       title: "Calculator",
-      description: "Project 4 description",
+      description: "In this project, I learned how to create calculator project.",
       image: "/images/projects/4.png",
       tag: ["All", "Mobile"],
       gitUrl: "/",
