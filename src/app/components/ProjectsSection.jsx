@@ -55,7 +55,7 @@ const projectsData = [
       image: "/images/projects/Calculator.png",
       tag: ["All", "Mobile"],
       deployUrl: "https://isnendyankp.github.io/calculator.github.io/",
-      gitUrl: "/",
+      gitUrl: "https://github.com/isnendyankp/calculator.github.io",
       },
     {
       id: 5,
