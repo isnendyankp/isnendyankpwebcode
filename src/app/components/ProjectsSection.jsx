@@ -60,7 +60,7 @@ const projectsData = [
     {
       id: 5,
       title: "Custom Countdown",
-      description: "Authentication and CRUD operations",
+      description: "in this project, I learned how to custom countdown",
       image: "/images/projects/5.png",
       tag: ["All", "Web"],
       gitUrl: "/",
