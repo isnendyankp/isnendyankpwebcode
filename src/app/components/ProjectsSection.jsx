@@ -60,11 +60,20 @@ const projectsData = [
     {
       id: 5,
       title: "Custom Countdown",
-      description: "in this project, I learned how to custom countdown",
+      description: {
+        intro: "An interactive web application that allows users to create custom countdowns for any event. Simply input a title and a target date, and the app will dynamically display the remaining time.",
+        features: [
+          "Set a custom title and date for your countdown.",
+          "Real-time display of remaining time in days, hours, minutes, and seconds.",
+          "Saves countdown data to local storage to persist between sessions.",
+          "Clean and user-friendly interface."
+        ],
+        outro: "This project was a great exercise in JavaScript DOM manipulation and working with Date objects."
+      },
       image: "/images/projects/5.png",
       tag: ["All", "Web"],
       gitUrl: "/",
-      },
+    },
     {
       id: 6,
       title: "Full-stack Roadmap",
