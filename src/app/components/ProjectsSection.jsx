@@ -73,7 +73,7 @@ const projectsData = [
       image: "/images/projects/Customcountdown.png",
       tag: ["All", "Web"],
       deployUrl: "https://isnendyankp.github.io/customcountdown.github.io/",
-      gitUrl: "/",
+      gitUrl: "https://github.com/isnendyankp/customcountdown.github.io/",
     },
     {
       id: 6,
