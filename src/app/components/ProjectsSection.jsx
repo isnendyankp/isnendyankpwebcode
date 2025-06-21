@@ -51,7 +51,16 @@ const projectsData = [
     {
       id: 4,
       title: "Calculator",
-      description: "In this project, I learned how to create calculator project.",
+      description: {
+        intro: "A clean and intuitive web-based calculator for performing basic arithmetic operations with ease.",
+        features: [
+          "Supports standard operations: addition, subtraction, multiplication, and division.",
+          "Includes essential functions like All Clear (AC) and Clear (C) for corrections.",
+          "Responsive design for a seamless experience on both desktop and mobile devices.",
+          "Intuitive interface for straightforward calculations."
+        ],
+        outro: "This project sharpened my skills in JavaScript logic, event handling, and DOM manipulation to build an interactive tool."
+      },
       image: "/images/projects/Calculator.png",
       tag: ["All", "Mini Project"],
       deployUrl: "https://isnendyankp.github.io/calculator.github.io/",
