@@ -70,7 +70,7 @@ const projectsData = [
         ],
         outro: "This project was a great exercise in JavaScript DOM manipulation and working with Date objects."
       },
-      image: "/images/projects/5.png",
+      image: "/images/projects/Customcountdown.png",
       tag: ["All", "Web"],
       gitUrl: "/",
     },
