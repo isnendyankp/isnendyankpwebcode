@@ -42,7 +42,16 @@ const projectsData = [
     {
       id: 3,
       title: "Animated Template",
-      description: "In this project, I learn how to use AOS (animation on scroll) & add inside HTML. And also this project uses Unsplash images and random user images.",
+      description: {
+        intro: "A visually engaging and modern landing page template designed to showcase a product or company with dynamic, scroll-based animations.",
+        features: [
+          "Integrates the AOS (Animate On Scroll) library for smooth, eye-catching animations as the user scrolls.",
+          "Features a clean, component-based layout for easy customization.",
+          "Utilizes high-quality placeholder images from Unsplash to create a professional look.",
+          "Built with a responsive design that adapts to various screen sizes."
+        ],
+        outro: "This project was a great opportunity to learn how to integrate and configure third-party animation libraries to enhance user experience."
+      },
       image: "/images/projects/Animatedtemplate.png",
       tag: ["All", "Mini Project"],
       deployUrl: "https://isnendyankp.github.io/animatedtemplate.github.io/",
