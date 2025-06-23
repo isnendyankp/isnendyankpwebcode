@@ -35,7 +35,7 @@ const projectsData = [
         outro: "I was responsible for developing the secure and efficient login and registration sections for this platform."
       },
       image: "/images/projects/purewater.png",
-      tag: ["All", "Web"],
+      tag: ["All", "Bootcamp Project"],
       deployUrl: "https://purewater-revou.netlify.app/",
       gitUrl: "https://github.com/isnendyankp/RevoU-Final-Project-FE-Group-D/",
       },
