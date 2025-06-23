@@ -18,7 +18,7 @@ const projectsData = [
         outro: "I developed key components for this project, including the Landing Page, Registration, and Recipe pages."
       },
       image: "/images/projects/Masakin.png",
-      tag: ["All", "Web"],
+      tag: ["All", "Bootcamp Project"],
       deployUrl: "https://masakin-fe-irfans-projects-8d4765df.vercel.app//",
       gitUrl: "https://github.com/isnendyankp/masakin_FE",
     },
