@@ -89,7 +89,7 @@ const projectsData = [
         outro: "This project was a great exercise in JavaScript DOM manipulation and working with Date objects."
       },
       image: "/images/projects/Customcountdown.png",
-      tag: ["All", "Web"],
+      tag: ["All", "Mini Project"],
       deployUrl: "https://isnendyankp.github.io/customcountdown.github.io/",
       gitUrl: "https://github.com/isnendyankp/customcountdown.github.io/",
     },
