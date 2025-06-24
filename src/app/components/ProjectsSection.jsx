@@ -95,7 +95,7 @@ const projectsData = [
     },
     {
       id: 6,
-      title: "Full-stack Roadmap",
+      title: "Joke Teller",
       description: "Project 5 description",
       image: "/images/projects/6.png",
       tag: ["All", "Web"],
