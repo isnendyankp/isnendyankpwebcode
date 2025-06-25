@@ -98,7 +98,7 @@ const projectsData = [
       title: "Joke Teller",
       description: "Project 5 description",
       image: "/images/projects/Joketeller.png",
-      tag: ["All", "Web"],
+      tag: ["All", "Mini Project"],
       gitUrl: "/",
       },
   ];
