@@ -99,6 +99,7 @@ const projectsData = [
       description: "Project 5 description",
       image: "/images/projects/Joketeller.png",
       tag: ["All", "Mini Project"],
+      deployUrl: "https://isnendyankp.github.io/JokeTeller.github.io/",
       gitUrl: "https://github.com/isnendyankp/JokeTeller.github.io",
       },
   ];
