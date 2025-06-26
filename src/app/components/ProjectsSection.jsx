@@ -133,22 +133,22 @@ const ProjectsSection = () => {
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         {/* All */}
         <ProjectTag
-         onClick={handleTagChange}
-         tag="All"
-         isSelected={tag === "All"}
-        />
-        {/* Web */}
+          onClick={handleTagChange} 
+          name="All"
+          isSelected={tag === "All"}
+          />
+        {/* Bootcamp Project */}
         <ProjectTag
-         onClick={handleTagChange}
-         tag="Web"
-         isSelected={tag === "Web"}
-        />
-        {/* Mobile */}
+          onClick={handleTagChange} 
+          name="Bootcamp Project" 
+          isSelected={tag === "Bootcamp Project"}
+          />
+        {/* Mini Project */}
         <ProjectTag
-         onClick={handleTagChange}
-         tag="Mobile"
-         isSelected={tag === "Mobile"}
-        />
+          onClick={handleTagChange} 
+          name="Mini Project" 
+          isSelected={tag === "Mini Project"}
+          />
       </div>
       {/* Mapping Projects */} 
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
