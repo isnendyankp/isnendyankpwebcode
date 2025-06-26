@@ -96,7 +96,7 @@ const projectsData = [
     {
       id: 6,
       title: "Joke Teller",
-      description: "Project 5 description",
+      description: "Joke Teller is a web application that allows users to generate random jokes and quotes.",
       image: "/images/projects/Joketeller.png",
       tag: ["All", "Mini Project"],
       deployUrl: "https://isnendyankp.github.io/JokeTeller.github.io/",
