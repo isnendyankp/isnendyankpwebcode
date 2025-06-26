@@ -110,6 +110,11 @@ const projectsData = [
       deployUrl: "https://isnendyankp.github.io/JokeTeller.github.io/",
       gitUrl: "https://github.com/isnendyankp/JokeTeller.github.io",
       },
+      {
+        id: 7,
+        title: "SpockRockGame",
+        description: "Spock Rock Game is a web application that allows users to play a game of Spock Rock.",
+      },
   ];
 
 const ProjectsSection = () => {
