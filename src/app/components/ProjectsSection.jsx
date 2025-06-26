@@ -96,7 +96,15 @@ const projectsData = [
     {
       id: 6,
       title: "Joke Teller",
-      description: "Joke Teller is a web application that allows users to generate random jokes and quotes.",
+      description: {
+        intro: "Joke Teller is a web application that allows users to generate random jokes and quotes.",
+        features: [
+          "Generate random jokes and quotes.",
+          "Clean and user-friendly interface.",
+          "Built with a responsive design that adapts to various screen sizes."
+        ],
+        outro: "This project was a great opportunity to learn how to integrate and configure third-party animation libraries to enhance user experience."
+      },
       image: "/images/projects/Joketeller.png",
       tag: ["All", "Mini Project"],
       deployUrl: "https://isnendyankp.github.io/JokeTeller.github.io/",
