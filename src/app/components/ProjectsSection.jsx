@@ -117,7 +117,7 @@ const projectsData = [
         image: "/images/projects/Spockrockgame.png",
         tag: ["All", "Mini Project"],
         deployUrl: "https://isnendyankp.github.io/spockrockgame.github.io/",
-        
+        gitUrl: "https://github.com/isnendyankp/spockrockgame.github.iohttps://github.com/isnendyankp/spockrockgame.github.io",
       },
   ];
 
