@@ -114,6 +114,7 @@ const projectsData = [
         id: 7,
         title: "SpockRockGame",
         description: "Spock Rock Game is a web application that allows users to play a game of Spock Rock.",
+        image: "/images/projects/Spockrockgame.png",
       },
   ];
 
