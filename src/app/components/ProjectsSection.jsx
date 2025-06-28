@@ -3,6 +3,7 @@ import React from 'react'
 import { useState } from "react";
 import ProjectTag from "./ProjectTag";
 import ProjectCard from "./ProjectCard";
+import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 
 const projectsData = [
     {
@@ -162,13 +163,16 @@ const ProjectsSection = () => {
             {/* Search and Filter */}
             <div className="flex flex-col items-center gap-4 mb-8">
                 {/* Search Input */}
-                <div className="w-full md:w-1/2">
+                <div className="relative w-full md:w-1/2">
+                    <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                        <MagnifyingGlassIcon className="h-5 w-5 text-[#9CA2A9]" />
+                    </div>
                     <input
                         type="text"
                         placeholder="Search for a project..."
                         value={searchQuery}
                         onChange={handleSearchChange}
-                        className="w-full px-4 py-3 bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block focus:ring-primary-500 focus:border-primary-500"
+                        className="w-full pl-10 pr-4 py-3 bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block focus:ring-primary-500 focus:border-primary-500"
                     />
                 </div>
                 {/* Filter Buttons */}
