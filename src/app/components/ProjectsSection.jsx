@@ -161,7 +161,7 @@ const ProjectsSection = () => {
             </h2>
 
             {/* Search and Filter */}
-            <div className="flex flex-col items-center gap-4 mb-8">
+            <div className="flex flex-col items-center gap-8 mb-8">
                 {/* Search Input */}
                 <div className="relative w-full md:w-1/2">
                     <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
