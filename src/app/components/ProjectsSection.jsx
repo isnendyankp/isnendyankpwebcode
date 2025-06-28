@@ -113,11 +113,20 @@ const projectsData = [
       {
         id: 7,
         title: "SpockRockGame",
-        description: "Spock Rock Game is a web application that allows users to play a game of Spock Rock.",
+        description: {
+          intro: "An extended version of the classic Rock-Paper-Scissors game, featuring two additional choices: Lizard and Spock. Test your luck and strategy against the computer.",
+          features: [
+            "Play the classic game with a twist: Rock, Paper, Scissors, Lizard, Spock.",
+            "Compete against a computer opponent with randomized choices.",
+            "Real-time feedback on the winner of each round.",
+            "Keeps track of the score for both the player and the computer."
+          ],
+          outro: "This project was a fun exercise in implementing game logic, handling user input, and updating the UI dynamically with JavaScript."
+        },
         image: "/images/projects/Spockrockgame.png",
         tag: ["All", "Mini Project"],
         deployUrl: "https://isnendyankp.github.io/spockrockgame.github.io/",
-        gitUrl: "https://github.com/isnendyankp/spockrockgame.github.iohttps://github.com/isnendyankp/spockrockgame.github.io",
+        gitUrl: "https://github.com/isnendyankp/spockrockgame.github.io",
       },
   ];
 
