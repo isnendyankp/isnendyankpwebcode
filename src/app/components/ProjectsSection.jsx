@@ -133,57 +133,80 @@ const projectsData = [
 const ProjectsSection = () => {
     // state    
     const [tag, setTag] = useState("All");
+    const [searchQuery, setSearchQuery] = useState(""); // New state for search
+
     // handle tag change
     const handleTagChange = (newTag) => {
         setTag(newTag);
-        };
+    };
+
+    // handle search change
+    const handleSearchChange = (event) => {
+        setSearchQuery(event.target.value);
+    };
+
     // filtered projects
-    const filteredProjects = projectsData.filter((project) =>
-        project.tag.includes(tag)
-      );
-  return (
-    <section id="projects" className="py-24">
-      {/* Projects */}
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
-      </h2>
-      {/* Filter */}
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        {/* All */}
-        <ProjectTag
-          onClick={handleTagChange} 
-          name="All"
-          isSelected={tag === "All"}
-          />
-        {/* Bootcamp Project */}
-        <ProjectTag
-          onClick={handleTagChange} 
-          name="Bootcamp Project" 
-          isSelected={tag === "Bootcamp Project"}
-          />
-        {/* Mini Project */}
-        <ProjectTag
-          onClick={handleTagChange} 
-          name="Mini Project" 
-          isSelected={tag === "Mini Project"}
-          />
-      </div>
-      {/* Mapping Projects */} 
-      <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-        {filteredProjects.map((project) => (
-          <ProjectCard 
-            key={project.id} 
-            title={project.title}
-            description={project.description}
-            imgUrl={project.image}
-            tags={project.tag}
-            gitUrl={project.gitUrl}
-            deployUrl={project.deployUrl}
-            />
-        ))}
-      </div>
-    </section>
-  )
-}
+    const filteredProjects = projectsData.filter((project) => {
+        const tagMatch = project.tag.includes(tag);
+        const searchMatch = project.title.toLowerCase().includes(searchQuery.toLowerCase());
+        return tagMatch && searchMatch;
+    });
+
+    return (
+        <section id="projects" className="py-24">
+            {/* Projects */}
+            <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+                My Projects
+            </h2>
+
+            {/* Search and Filter */}
+            <div className="flex flex-col items-center gap-4 mb-8">
+                {/* Search Input */}
+                <div className="w-full md:w-1/2">
+                    <input
+                        type="text"
+                        placeholder="Search for a project..."
+                        value={searchQuery}
+                        onChange={handleSearchChange}
+                        className="w-full px-4 py-3 bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block focus:ring-primary-500 focus:border-primary-500"
+                    />
+                </div>
+                {/* Filter Buttons */}
+                <div className="text-white flex flex-row justify-center items-center gap-2">
+                    <ProjectTag
+                        onClick={handleTagChange}
+                        name="All"
+                        isSelected={tag === "All"}
+                    />
+                    <ProjectTag
+                        onClick={handleTagChange}
+                        name="Bootcamp Project"
+                        isSelected={tag === "Bootcamp Project"}
+                    />
+                    <ProjectTag
+                        onClick={handleTagChange}
+                        name="Mini Project"
+                        isSelected={tag === "Mini Project"}
+                    />
+                </div>
+            </div>
+
+            {/* Mapping Projects */}
+            <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+                {filteredProjects.map((project) => (
+                    <ProjectCard
+                        key={project.id}
+                        title={project.title}
+                        description={project.description}
+                        imgUrl={project.image}
+                        tags={project.tag}
+                        gitUrl={project.gitUrl}
+                        deployUrl={project.deployUrl}
+                    />
+                ))}
+            </div>
+        </section>
+    );
+};
 
 export default ProjectsSection
