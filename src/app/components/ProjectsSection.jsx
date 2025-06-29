@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { useState } from "react";
+import { useState, useRef } from "react";
 import ProjectTag from "./ProjectTag";
 import ProjectCard from "./ProjectCard";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
@@ -138,6 +138,7 @@ const ProjectsSection = () => {
     const [searchQuery, setSearchQuery] = useState(""); // New state for search
     const [currentPage, setCurrentPage] = useState(1);
     const projectsPerPage = 6;
+    const projectsSectionRef = useRef(null);
 
     // handle tag change
     const handleTagChange = (newTag) => {
@@ -163,10 +164,13 @@ const ProjectsSection = () => {
     const indexOfFirstProject = indexOfLastProject - projectsPerPage;
     const currentProjects = filteredProjects.slice(indexOfFirstProject, indexOfLastProject);
 
-    const paginate = (pageNumber) => setCurrentPage(pageNumber);
+    const paginate = (pageNumber) => {
+        setCurrentPage(pageNumber);
+        projectsSectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+    };
 
     return (
-        <section id="projects" className="py-24">
+        <section id="projects" ref={projectsSectionRef} className="py-24 scroll-mt-24">
             {/* Projects */}
             <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
                 My Projects
