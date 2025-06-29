@@ -4,6 +4,7 @@ import { useState } from "react";
 import ProjectTag from "./ProjectTag";
 import ProjectCard from "./ProjectCard";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import Pagination from "./Pagination";
 
 const projectsData = [
     {
@@ -135,23 +136,34 @@ const ProjectsSection = () => {
     // state    
     const [tag, setTag] = useState("All");
     const [searchQuery, setSearchQuery] = useState(""); // New state for search
+    const [currentPage, setCurrentPage] = useState(1);
+    const projectsPerPage = 6;
 
     // handle tag change
     const handleTagChange = (newTag) => {
         setTag(newTag);
+        setCurrentPage(1); // Reset to first page on tag change
     };
 
     // handle search change
     const handleSearchChange = (event) => {
         setSearchQuery(event.target.value);
+        setCurrentPage(1); // Reset to first page on search
     };
 
     // filtered projects
     const filteredProjects = projectsData.filter((project) => {
-        const tagMatch = project.tag.includes(tag);
+        const tagMatch = tag === 'All' || project.tag.includes(tag);
         const searchMatch = project.title.toLowerCase().includes(searchQuery.toLowerCase());
         return tagMatch && searchMatch;
     });
+
+    // Pagination logic
+    const indexOfLastProject = currentPage * projectsPerPage;
+    const indexOfFirstProject = indexOfLastProject - projectsPerPage;
+    const currentProjects = filteredProjects.slice(indexOfFirstProject, indexOfLastProject);
+
+    const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
     return (
         <section id="projects" className="py-24">
@@ -197,7 +209,7 @@ const ProjectsSection = () => {
 
             {/* Mapping Projects */}
             <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-                {filteredProjects.map((project) => (
+                {currentProjects.map((project) => (
                     <ProjectCard
                         key={project.id}
                         title={project.title}
@@ -209,6 +221,12 @@ const ProjectsSection = () => {
                     />
                 ))}
             </div>
+            <Pagination 
+                projectsPerPage={projectsPerPage}
+                totalProjects={filteredProjects.length}
+                paginate={paginate}
+                currentPage={currentPage}
+            />
         </section>
     );
 };
