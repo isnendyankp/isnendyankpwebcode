@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import ProjectTag from "./ProjectTag";
 import ProjectCard from "./ProjectCard";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
@@ -166,8 +166,17 @@ const ProjectsSection = () => {
 
     const paginate = (pageNumber) => {
         setCurrentPage(pageNumber);
-        projectsSectionRef.current?.scrollIntoView({ behavior: 'smooth' });
     };
+
+    // Scroll to top of projects section when page changes
+    const isInitialMount = useRef(true);
+    useEffect(() => {
+        if (isInitialMount.current) {
+            isInitialMount.current = false;
+        } else {
+            projectsSectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+        }
+    }, [currentPage]);
 
     return (
         <section id="projects" ref={projectsSectionRef} className="py-24 scroll-mt-24">
