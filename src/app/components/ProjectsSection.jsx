@@ -143,7 +143,7 @@ const projectsData = [
           ],
           outro: "Default outro"
         },
-        image: "/images/projects/Spockrockgame.png",
+        image: "/images/projects/Draganddrop.png",
         tag: ["All", "Mini Project"],
         deployUrl: "https://isnendyankp.github.io/draganddrop.github.io/",
         gitUrl: "https://github.com/isnendyankp/spockrockgame.github.io",
