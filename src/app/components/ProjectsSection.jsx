@@ -134,7 +134,7 @@ const projectsData = [
         id: 8,
         title: "Drag and Drop",
         description: {
-          intro: "Default description",
+          intro: "In this project, I learned how to drag and drop projects.",
           features: [
             "Default features",
             "Default features",
