@@ -130,6 +130,24 @@ const projectsData = [
         deployUrl: "https://isnendyankp.github.io/spockrockgame.github.io/",
         gitUrl: "https://github.com/isnendyankp/spockrockgame.github.io",
       },
+      {
+        id: 8,
+        title: "Drag and Drop",
+        description: {
+          intro: "Default description",
+          features: [
+            "Default features",
+            "Default features",
+            "Default features",
+            "Default features"
+          ],
+          outro: "Default outro"
+        },
+        image: "/images/projects/Spockrockgame.png",
+        tag: ["All", "Mini Project"],
+        deployUrl: "https://isnendyankp.github.io/spockrockgame.github.io/",
+        gitUrl: "https://github.com/isnendyankp/spockrockgame.github.io",
+      },
   ];
 
 const ProjectsSection = () => {
