@@ -134,14 +134,14 @@ const projectsData = [
         id: 8,
         title: "Drag and Drop",
         description: {
-          intro: "In this project, I learned how to drag and drop projects.",
+          intro: "An interactive Kanban board designed to help you manage tasks and workflows visually. With a clean interface, you can easily track project progress from start to finish.",
           features: [
-            "Default features",
-            "Default features",
-            "Default features",
-            "Default features"
+            "Organize tasks into four distinct columns: Backlog, Progress, Complete, and On Hold.",
+            "Seamlessly move tasks between columns with intuitive drag-and-drop functionality.",
+            "Dynamically add new items to any column to keep your task board up-to-date.",
+            "A responsive interface ensures a smooth experience across various devices."
           ],
-          outro: "Default outro"
+          outro: "This project was an excellent exercise in implementing the HTML Drag and Drop API and manipulating the DOM to build a dynamic, interactive user interface."
         },
         image: "/images/projects/Draganddrop.png",
         tag: ["All", "Mini Project"],
