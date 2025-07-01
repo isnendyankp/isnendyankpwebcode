@@ -163,7 +163,7 @@ const projectsData = [
         },
         image: "/images/projects/Draganddrop.png",
         tag: ["All", "Mini Project"],
-        deployUrl: "https://isnendyankp.github.io/draganddrop.github.io/",
+        deployUrl: "https://isnendyankp.github.io/formvalidator.github.io/",
         gitUrl: "https://github.com/isnendyankp/draganddrop.github.io",
       },
   ];
