@@ -148,6 +148,24 @@ const projectsData = [
         deployUrl: "https://isnendyankp.github.io/draganddrop.github.io/",
         gitUrl: "https://github.com/isnendyankp/draganddrop.github.io",
       },
+      {
+        id: 9,
+        title: "Form Validator",
+        description: {
+          intro: "Default description",
+          features: [
+            "Default features",
+            "Default features",
+            "Default features",
+            "Default features"
+          ],
+          outro: "Default outro"
+        },
+        image: "/images/projects/Draganddrop.png",
+        tag: ["All", "Mini Project"],
+        deployUrl: "https://isnendyankp.github.io/draganddrop.github.io/",
+        gitUrl: "https://github.com/isnendyankp/draganddrop.github.io",
+      },
   ];
 
 const ProjectsSection = () => {
