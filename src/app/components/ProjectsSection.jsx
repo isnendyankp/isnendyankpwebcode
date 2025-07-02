@@ -161,7 +161,7 @@ const projectsData = [
           ],
           outro: "Default outro"
         },
-        image: "/images/projects/Draganddrop.png",
+        image: "/images/projects/Formvalidator.png",
         tag: ["All", "Mini Project"],
         deployUrl: "https://isnendyankp.github.io/formvalidator.github.io/",
         gitUrl: "https://github.com/isnendyankp/formvalidator.github.io",
