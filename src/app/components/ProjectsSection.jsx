@@ -152,14 +152,14 @@ const projectsData = [
         id: 9,
         title: "Form Validator",
         description: {
-          intro: "Default description",
+          intro: "A client-side form validation project designed to ensure data accuracy and improve user experience. This application provides real-time feedback to users as they fill out the form, preventing invalid submissions.",
           features: [
-            "Default features",
-            "Default features",
-            "Default features",
-            "Default features"
+            "Validates input fields such as username, email, and password in real-time.",
+            "Provides clear and immediate error messages to guide users in correcting their input.",
+            "Includes a password confirmation field to prevent typing errors.",
+            "Features a clean and responsive layout that works seamlessly on different devices."
           ],
-          outro: "Default outro"
+          outro: "This project was a great opportunity to practice JavaScript for implementing complex validation logic, DOM manipulation for displaying feedback, and using regular expressions for pattern matching."
         },
         image: "/images/projects/Formvalidator.png",
         tag: ["All", "Mini Project"],
