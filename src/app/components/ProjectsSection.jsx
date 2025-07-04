@@ -166,6 +166,24 @@ const projectsData = [
         deployUrl: "https://isnendyankp.github.io/formvalidator.github.io/",
         gitUrl: "https://github.com/isnendyankp/formvalidator.github.io",
       },
+      {
+        id: 10,
+        title: "Music Player",
+        description: {
+          intro: "Default description",
+          features: [
+            "Default features",
+            "Default features",
+            "Default features",
+            "Default features"
+          ],
+          outro: "Default outro"
+        },
+        image: "/images/projects/Formvalidator.png",
+        tag: ["All", "Mini Project"],
+        deployUrl: "https://isnendyankp.github.io/formvalidator.github.io/",
+        gitUrl: "https://github.com/isnendyankp/formvalidator.github.io",
+      },
   ];
 
 const ProjectsSection = () => {
