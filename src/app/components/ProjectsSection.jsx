@@ -179,7 +179,7 @@ const projectsData = [
           ],
           outro: "Default outro"
         },
-        image: "/images/projects/Formvalidator.png",
+        image: "/images/projects/Musicplayer.png",
         tag: ["All", "Mini Project"],
         deployUrl: "https://isnendyankp.github.io/formvalidator.github.io/",
         gitUrl: "https://github.com/isnendyankp/formvalidator.github.io",
