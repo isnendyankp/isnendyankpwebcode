@@ -181,7 +181,7 @@ const projectsData = [
         },
         image: "/images/projects/Musicplayer.png",
         tag: ["All", "Mini Project"],
-        deployUrl: "https://isnendyankp.github.io/formvalidator.github.io/",
+        deployUrl: "https://isnendyankp.github.io/musicplayer.github.io/",
         gitUrl: "https://github.com/isnendyankp/formvalidator.github.io",
       },
   ];
