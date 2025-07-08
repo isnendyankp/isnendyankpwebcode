@@ -170,14 +170,14 @@ const projectsData = [
         id: 10,
         title: "Music Player",
         description: {
-          intro: "Default description",
+          intro: "A sleek and stylish web-based music player designed to deliver a seamless listening experience. Immerse yourself in curated tunes with this intuitive and visually appealing application.",
           features: [
-            "Default features",
-            "Default features",
-            "Default features",
-            "Default features"
+            "Full playback control with play, pause, next, and previous track buttons.",
+            "A dynamic progress bar to track your position within the current song.",
+            "Visually engaging interface with updating song titles and album art.",
+            "A curated playlist to set the perfect 'Electric Chill' vibe."
           ],
-          outro: "Default outro"
+          outro: "This project was a fantastic opportunity to work with the HTML5 Audio API, handle media events, and build a responsive and interactive user interface with JavaScript."
         },
         image: "/images/projects/Musicplayer.png",
         tag: ["All", "Mini Project"],
