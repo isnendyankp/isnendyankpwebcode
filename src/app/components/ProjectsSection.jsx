@@ -197,7 +197,7 @@ const projectsData = [
           ],
           outro: "Default outro"
         },
-        image: "/images/projects/Musicplayer.png",
+        image: "/images/projects/Catfansclub.png",
         tag: ["All", "Bootcamp Project"],
         deployUrl: "https://isnendyankp.github.io/musicplayer.github.io/",
         gitUrl: "https://github.com/isnendyankp/musicplayer.github.io",
