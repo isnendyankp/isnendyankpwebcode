@@ -199,7 +199,7 @@ const projectsData = [
         },
         image: "/images/projects/Catfansclub.png",
         tag: ["All", "Bootcamp Project"],
-        deployUrl: "https://isnendyankp.github.io/musicplayer.github.io/",
+        deployUrl: "https://cat-fansclub.netlify.app/",
         gitUrl: "https://github.com/isnendyankp/musicplayer.github.io",
       },
   ];
