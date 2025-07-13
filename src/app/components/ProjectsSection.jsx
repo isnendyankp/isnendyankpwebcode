@@ -188,14 +188,14 @@ const projectsData = [
         id: 11,
         title: "Cat Fans Club",
         description: {
-          intro: "Default description",
+          intro: "A charming and delightful landing page for a 'Cat Fansclub,' created as part of a bootcamp project. This website serves as a central hub for cat lovers to find cute photos, interesting facts, and join a community of fellow enthusiasts.",
           features: [
-            "Default features",
-            "Default features",
-            "Default features",
-            "Default features"
+            "Features a multi-page layout including a homepage, a gallery for cat photos, and an 'About Us' section.",
+            "Engaging content such as a cat video, fun articles explaining cat behaviors, and a welcoming message.",
+            "A clean and straightforward design, making it easy for users to navigate and enjoy the content.",
+            "Includes a clear call-to-action to encourage visitors to join the fansclub."
           ],
-          outro: "Default outro"
+          outro: "This project demonstrates solid foundational skills in HTML and CSS, focusing on creating a structured, multi-page static website with engaging content and a clear user flow."
         },
         image: "/images/projects/Catfansclub.png",
         tag: ["All", "Bootcamp Project"],
