@@ -204,7 +204,7 @@ const projectsData = [
       },
       {
         id: 12,
-        title: "",
+        title: "Nasa Photo of the Day",
         description: {
           intro: "Default description",
           features: [
