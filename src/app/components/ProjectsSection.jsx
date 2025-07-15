@@ -202,6 +202,24 @@ const projectsData = [
         deployUrl: "https://cat-fansclub.netlify.app/",
         gitUrl: "https://github.com/revou-fsse-3/module-1-isnendyankp/tree/main/Week-1",
       },
+      {
+        id: 12,
+        title: "",
+        description: {
+          intro: "Default description",
+          features: [
+            "Default features",
+            "Default features",
+            "Default features",
+            "Default features"
+          ],
+          outro: "Default outro"
+        },
+        image: "/images/projects/.png",
+        tag: ["All", "Bootcamp Project"],
+        deployUrl: "https://isnendyankp.github.io/musicplayer.github.io/",
+        gitUrl: "https://github.com/isnendyankp/musicplayer.github.io",
+      },
   ];
 
 const ProjectsSection = () => {
