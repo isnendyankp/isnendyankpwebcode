@@ -206,14 +206,14 @@ const projectsData = [
         id: 12,
         title: "Nasa Photo of the Day",
         description: {
-          intro: "Default description",
+          intro: "A captivating web application that brings the wonders of the cosmos to your screen by fetching and displaying stunning images from NASA's public APIs. Explore breathtaking astronomical pictures and curate your own collection of favorites.",
           features: [
-            "Default features",
-            "Default features",
-            "Default features",
-            "Default features"
+            "Dynamically loads spectacular images and their descriptions directly from the NASA API.",
+            "Features an infinite scroll-style 'Load More' button to continuously discover new images.",
+            "Allows users to save their favorite images to a personal 'Favorites' collection for later viewing.",
+            "Provides clear user feedback when an image is successfully added to favorites."
           ],
-          outro: "Default outro"
+          outro: "This project is an excellent showcase of consuming third-party REST APIs, handling asynchronous JavaScript operations, and dynamically manipulating the DOM to create an interactive and engaging user experience."
         },
         image: "/images/projects/Nasapod.png",
         tag: ["All", "Mini Project"],
