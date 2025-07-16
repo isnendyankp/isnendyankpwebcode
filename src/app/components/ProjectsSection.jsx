@@ -218,7 +218,7 @@ const projectsData = [
         image: "/images/projects/Nasapod.png",
         tag: ["All", "Mini Project"],
         deployUrl: "https://isnendyankp.github.io/nasaapod.github.io/",
-        gitUrl: "https://github.com/isnendyankp/musicplayer.github.io",
+        gitUrl: "https://github.com/isnendyankp/nasaapod.github.io",
       },
   ];
 
