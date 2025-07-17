@@ -224,7 +224,7 @@ const projectsData = [
         id: 13,
         title: "Paint Clone",
         description: {
-          intro: "Default description",
+          intro: "A web-based paint application that allows users to create and save their own custom designs.",
           features: [
             "Default features",
             "Default features",
