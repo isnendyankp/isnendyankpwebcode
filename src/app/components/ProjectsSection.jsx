@@ -222,7 +222,7 @@ const projectsData = [
       },
       {
         id: 13,
-        title: "",
+        title: "Paint Clone",
         description: {
           intro: "Default description",
           features: [
