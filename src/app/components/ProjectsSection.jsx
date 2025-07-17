@@ -220,6 +220,24 @@ const projectsData = [
         deployUrl: "https://isnendyankp.github.io/nasaapod.github.io/",
         gitUrl: "https://github.com/isnendyankp/nasaapod.github.io",
       },
+      {
+        id: 13,
+        title: "",
+        description: {
+          intro: "Default description",
+          features: [
+            "Default features",
+            "Default features",
+            "Default features",
+            "Default features"
+          ],
+          outro: "Default outro"
+        },
+        image: "/images/projects/.png",
+        tag: ["All", "Bootcamp Project"],
+        deployUrl: "https://isnendyankp.github.io/musicplayer.github.io/",
+        gitUrl: "https://github.com/isnendyankp/musicplayer.github.io",
+      },
   ];
 
 const ProjectsSection = () => {
