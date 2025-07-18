@@ -226,10 +226,9 @@ const projectsData = [
         description: {
           intro: "A web-based paint application that allows users to create and save their own custom designs.",
           features: [
-            "Default features",
-            "Default features",
-            "Default features",
-            "Default features"
+            "Features a simple and intuitive interface with basic paint tools (brush, eraser, fill, and color picker).",
+            "Allows users to create and save their own custom designs.",
+            
           ],
           outro: "Default outro"
         },
