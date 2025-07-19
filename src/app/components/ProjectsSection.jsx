@@ -224,13 +224,14 @@ const projectsData = [
         id: 13,
         title: "Paint Clone",
         description: {
-          intro: "A web-based paint application that allows users to create and save their own custom designs.",
+          intro: "A classic, web-based paint application that brings digital drawing to your browser. This project faithfully recreates the core functionality of traditional paint software, allowing you to draw, color, and save your creations using the power of the HTML5 Canvas.",
           features: [
-            "Features a simple and intuitive interface with basic paint tools (brush, eraser, fill, and color picker).",
-            "Allows users to create and save their own custom designs.",
-            
+            "A comprehensive toolbar with essential drawing tools: Brush, Eraser, and a Background Fill bucket.",
+            "Full control over your brush with an adjustable size slider and a dedicated color picker.",
+            "Save your artwork in two convenient ways: save the canvas state to local storage to resume later, or download your creation as a standard image file.",
+            "Easily manage your workspace with 'Clear Canvas' and 'Clear Local Storage' options."
           ],
-          outro: "This project is an excellent showcase of consuming third-party REST APIs, handling asynchronous JavaScript operations, and dynamically manipulating the DOM to create an interactive and engaging user experience."
+          outro: "This project is a deep dive into the HTML5 Canvas API, demonstrating complex state management and user interaction with pure JavaScript. It showcases skills in DOM manipulation for the toolbar, handling canvas drawing logic, and utilizing the Web Storage API for saving and loading user data."
         },
         image: "/images/projects/Paintclone.png",
         tag: ["All", "Mini Project"],
