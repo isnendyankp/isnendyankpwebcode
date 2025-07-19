@@ -234,7 +234,7 @@ const projectsData = [
         },
         image: "/images/projects/Paintclone.png",
         tag: ["All", "Mini Project"],
-        deployUrl: "https://isnendyankp.github.io/musicplayer.github.io/",
+        deployUrl: "https://isnendyankp.github.io/paintclone.github.io/",
         gitUrl: "https://github.com/isnendyankp/musicplayer.github.io",
       },
   ];
