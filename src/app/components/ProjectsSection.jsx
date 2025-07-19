@@ -230,7 +230,7 @@ const projectsData = [
             "Allows users to create and save their own custom designs.",
             
           ],
-          outro: "Default outro"
+          outro: "This project is an excellent showcase of consuming third-party REST APIs, handling asynchronous JavaScript operations, and dynamically manipulating the DOM to create an interactive and engaging user experience."
         },
         image: "/images/projects/Paintclone.png",
         tag: ["All", "Mini Project"],
