@@ -240,7 +240,7 @@ const projectsData = [
       },
       {
         id: 14,
-        title: "",
+        title: "Picture in Picture",
         description: {
           intro: "Default description",
           features: [
