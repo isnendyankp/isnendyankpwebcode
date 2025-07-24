@@ -251,7 +251,7 @@ const projectsData = [
           ],
           outro: "Default outro"
         },
-        image: "/images/projects/.png",
+        image: "/images/projects/Pictureinpicture.png",
         tag: ["All", "Mini Project"],
         deployUrl: "https://isnendyankp.github.io/PictureInPicture.github.io/",
         gitUrl: "https://github.com/isnendyankp/PictureInPicture.github.io/",
