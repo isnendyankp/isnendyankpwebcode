@@ -249,7 +249,7 @@ const projectsData = [
             "Seamless integration with browser's native PiP API",
             "Support for multiple video formats and sources"
           ],
-          outro: "Default outro"
+          outro: "This project demonstrates my ability to work with modern browser APIs and create enhanced user experiences for video content consumption."
         },
         image: "/images/projects/Pictureinpicture.png",
         tag: ["All", "Mini Project"],
