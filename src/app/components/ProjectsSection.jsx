@@ -244,10 +244,10 @@ const projectsData = [
         description: {
           intro: "Picture-in-picture (PiP) is a web feature that allows users to watch videos in a floating window while continuing to interact with other content on the page. This feature enhances user experience by providing a more immersive and flexible way to watch videos.",
           features: [
-            "Default features",
-            "Default features",
-            "Default features",
-            "Default features"
+            "Floating video window that stays on top while browsing",
+            "Resizable and draggable PiP window for customized viewing",
+            "Seamless integration with browser's native PiP API",
+            "Support for multiple video formats and sources"
           ],
           outro: "Default outro"
         },
