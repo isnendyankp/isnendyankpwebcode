@@ -256,6 +256,24 @@ const projectsData = [
         deployUrl: "https://isnendyankp.github.io/PictureInPicture.github.io/",
         gitUrl: "https://github.com/isnendyankp/PictureInPicture.github.io/",
       },
+    {
+      id: 15,
+      title: "Default",
+      description: {
+        intro: "Default intro",
+        features: [
+          "Default features",
+          "Default features",
+          "Default features",
+          "Default features"
+        ],
+        outro: "Default outro"
+      },
+      image: "/images/projects/Pictureinpicture.png",
+      tag: ["All", "Mini Project"],
+      deployUrl: "https://isnendyankp.github.io/PictureInPicture.github.io/",
+      gitUrl: "https://github.com/isnendyankp/PictureInPicture.github.io/",
+    },
   ];
 
 const ProjectsSection = () => {
