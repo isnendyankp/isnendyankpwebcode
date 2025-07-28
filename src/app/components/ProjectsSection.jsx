@@ -258,7 +258,7 @@ const projectsData = [
       },
     {
       id: 15,
-      title: "Default",
+      title: "Splash Page",
       description: {
         intro: "Default intro",
         features: [
