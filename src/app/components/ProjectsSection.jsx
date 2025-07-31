@@ -271,7 +271,7 @@ const projectsData = [
       },
       image: "/images/projects/Splashpage.png",
       tag: ["All", "Mini Project"],
-      deployUrl: "https://isnendyankp.github.io/PictureInPicture.github.io/",
+      deployUrl: "https://isnendyankp.github.io/splashpage.github.io/",
       gitUrl: "https://github.com/isnendyankp/PictureInPicture.github.io/",
     },
   ];
