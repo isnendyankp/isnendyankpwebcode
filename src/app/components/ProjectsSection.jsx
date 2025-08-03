@@ -260,7 +260,7 @@ const projectsData = [
       id: 15,
       title: "Splash Page",
       description: {
-        intro: "Default intro",
+        intro: "A splash page is a temporary landing page that appears when a user visits a website or application. It is often used to display a company's logo, a tagline, and a call-to-action button. The splash page is typically displayed for a short period of time, and then the user is redirected to the main page of the website or application.",
         features: [
           "Default features",
           "Default features",
