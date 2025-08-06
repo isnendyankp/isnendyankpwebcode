@@ -274,6 +274,24 @@ const projectsData = [
       deployUrl: "https://isnendyankp.github.io/splashpage.github.io/",
       gitUrl: "https://github.com/isnendyankp/splashpage.github.io",
     },
+    {
+      id: 16,
+      title: "",
+      description: {
+        intro: "",
+        features: [
+          "",
+          "",
+          "",
+          ""
+        ],
+        outro: ""
+      },
+      image: "",
+      tag: ["All", "Mini Project"],
+      deployUrl: "",
+      gitUrl: "",
+    }
   ];
 
 const ProjectsSection = () => {
