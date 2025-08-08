@@ -289,7 +289,7 @@ const projectsData = [
       },
       image: "",
       tag: ["All", "Mini Project"],
-      deployUrl: "",
+      deployUrl: "https://isnendyankp.github.io/backroads/",
       gitUrl: "",
     }
   ];
