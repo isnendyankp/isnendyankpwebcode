@@ -278,7 +278,7 @@ const projectsData = [
       id: 16,
       title: "Back Roads",
       description: {
-        intro: "",
+        intro: "A modern travel tour company website built with React, featuring a responsive design and seamless navigation to showcase tour packages, services, and destinations.",
         features: [
           "",
           "",
