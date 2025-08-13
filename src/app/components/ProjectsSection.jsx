@@ -287,7 +287,7 @@ const projectsData = [
         ],
         outro: ""
       },
-      image: "",
+      image: "/images/projects/Backroads.png",
       tag: ["All", "Mini Project"],
       deployUrl: "https://isnendyankp.github.io/backroads/",
       gitUrl: "https://github.com/isnendyankp/backroads",
