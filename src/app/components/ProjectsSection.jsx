@@ -285,7 +285,7 @@ const projectsData = [
           "",
           ""
         ],
-        outro: ""
+        outro: "This project showcases my proficiency in React development, responsive design principles, and creating engaging user interfaces for the travel and tourism industry."
       },
       image: "/images/projects/Backroads.png",
       tag: ["All", "Mini Project"],
