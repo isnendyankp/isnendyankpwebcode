@@ -280,10 +280,10 @@ const projectsData = [
       description: {
         intro: "A modern travel tour company website built with React, featuring a responsive design and seamless navigation to showcase tour packages, services, and destinations.",
         features: [
-          "",
-          "",
-          "",
-          ""
+          "Interactive tour packages with detailed pricing and duration information",
+          "Smooth navigation with dynamic page sections and social media integration",
+          "Comprehensive services section highlighting unique travel offerings",
+          "Responsive design with modern UI components and FontAwesome icons"
         ],
         outro: "This project showcases my proficiency in React development, responsive design principles, and creating engaging user interfaces for the travel and tourism industry."
       },
