@@ -294,7 +294,7 @@ const projectsData = [
     },
     {
       id: 17,
-      title: "",
+      title: "Yakuse",
       description: {
         intro: "",
         features: [
