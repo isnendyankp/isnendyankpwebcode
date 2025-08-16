@@ -291,6 +291,24 @@ const projectsData = [
       tag: ["All", "Mini Project"],
       deployUrl: "https://isnendyankp.github.io/backroads/",
       gitUrl: "https://github.com/isnendyankp/backroads",
+    },
+    {
+      id: 17,
+      title: "",
+      description: {
+        intro: "",
+        features: [
+          "",
+          "",
+          "",
+          ""
+        ],
+        outro: ""
+      },
+      image: "",
+      tag: ["All", "Mini Project"],
+      deployUrl: "",
+      gitUrl: "",
     }
   ];
 
