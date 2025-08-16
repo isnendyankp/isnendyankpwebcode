@@ -306,7 +306,7 @@ const projectsData = [
         outro: ""
       },
       image: "",
-      tag: ["All", "Mini Project"],
+      tag: ["All", "Bootcamp Project"],
       deployUrl: "",
       gitUrl: "",
     }
