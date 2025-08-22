@@ -308,7 +308,7 @@ const projectsData = [
       image: "",
       tag: ["All", "Bootcamp Project"],
       deployUrl: "https://yakuse.vercel.app/",
-      gitUrl: "",
+      gitUrl: "https://github.com/IryIndriyanto/yakuse-fe",
     }
   ];
 
