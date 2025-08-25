@@ -296,14 +296,14 @@ const projectsData = [
       id: 17,
       title: "Yakuse",
       description: {
-        intro: "",
+        intro: "A comprehensive web platform designed to empower Micro, Small, and Medium Enterprises (UMKM) by helping them manage business profiles, discover opportunities, and handle demand requests efficiently.",
         features: [
-          "",
-          "",
-          "",
-          ""
+          "Complete business profile management with registration and verification systems.",
+          "Advanced search and filter capabilities to find relevant business opportunities.",
+          "Integrated request creation and tracking system for managing business demands.",
+          "Business interaction features including ratings, reviews, and direct contact options."
         ],
-        outro: ""
+        outro: "This project showcases my ability to work with modern tech stacks including React, Next.js, TypeScript, and collaborative development in building scalable business solutions."
       },
       image: "",
       tag: ["All", "Bootcamp Project"],
