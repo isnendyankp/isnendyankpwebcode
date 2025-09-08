@@ -56,7 +56,10 @@
 - [ ] Add loading states
 
 ## Testing & Quality
-- [ ] Write unit tests for components
+- [x] Write unit tests for components
+- [x] Set up Jest and React Testing Library
+- [x] Create basic component tests (HeroSection, ProjectCard)
+- [x] Configure test scripts in package.json
 - [ ] Test responsive design across devices
 - [ ] Test accessibility features
 - [ ] Cross-browser compatibility testing
