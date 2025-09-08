@@ -9,8 +9,8 @@ const Herosection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-12">
             {/* Section Left */}
             <div className="col-span-7 place-self-center text-center sm:text-left">
-                <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-                    <span className='text-transparent bg-clip-text  bg-gradient-to-br from-blue-500 via-blue-700 to-indigo-300'>Hello, I'm{" "}</span>
+                <h1 className="text-white dark:text-gray-900 mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold transition-colors duration-300">
+                    <span className='text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-blue-700 to-indigo-300 dark:from-purple-600 dark:via-pink-600 dark:to-red-500'>Hello, I'm{" "}</span>
                     <br></br>
                     <TypeAnimation
                             sequence={[
@@ -26,22 +26,23 @@ const Herosection = () => {
                             wrapper="span"
                             speed={50}
                             repeat={Infinity}
+                            className="text-white dark:text-gray-900 transition-colors duration-300"
                     />  
                 </h1>
-                <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+                <p className="text-[#ADB7BE] dark:text-gray-600 text-base sm:text-lg mb-6 lg:text-xl transition-colors duration-300">
                     I'm a software engineer based in Indonesia specializing in
-                    <span className="text-white"> Software Engineer | Frontend Web Developer | QA Automation</span>
+                    <span className="text-white dark:text-gray-900 transition-colors duration-300"> Software Engineer | Frontend Web Developer | QA Automation</span>
                 </p>
                 <div>
                     <button 
                         onClick={() => window.open('https://www.linkedin.com/in/isnendyan', '_blank')}
-                        className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-blue-700 to-indigo-300 text-white hover:bg-slate-200">
+                        className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-blue-700 to-indigo-300 dark:from-purple-600 dark:via-pink-600 dark:to-red-500 text-white hover:from-blue-600 hover:via-blue-800 hover:to-indigo-400 dark:hover:from-purple-700 dark:hover:via-pink-700 dark:hover:to-red-600 transition-all duration-300">
                         Hire Me
                     </button>
                     <button 
                         onClick={() => window.open('https://drive.google.com/file/d/1Ap1elAquFcqAP5_If_r_NOZTD7wlXCHq/view?usp=drive_link', '_blank')}
-                        className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-blue-700 to-indigo-300 text-white mt-3">
-                        <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                        className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-blue-700 to-indigo-300 dark:from-purple-600 dark:via-pink-600 dark:to-red-500 text-white mt-3 transition-all duration-300">
+                        <span className="block bg-[#121212] dark:bg-gray-50 hover:bg-slate-800 dark:hover:bg-gray-100 rounded-full px-5 py-2 text-white dark:text-gray-900 transition-colors duration-300">
                             Download CV
                         </span>
                     </button>
