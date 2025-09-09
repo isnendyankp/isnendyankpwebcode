@@ -6,49 +6,54 @@ const ThemeContext = createContext();
 export const useTheme = () => {
   const context = useContext(ThemeContext);
   if (!context) {
-    throw new Error('useTheme must be used within a ThemeProvider');
+    return {
+      isDark: true,
+      toggleTheme: () => {},
+      theme: 'dark'
+    };
   }
   return context;
 };
 
 export const ThemeProvider = ({ children }) => {
-  const [isDark, setIsDark] = useState(true); // Default to dark mode
+  const [isDark, setIsDark] = useState(true);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
-    // Check for saved theme preference or default to dark
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      setIsDark(savedTheme === 'dark');
+    const savedTheme = localStorage.getItem('portfolio-theme');
+    if (savedTheme === 'light') {
+      setIsDark(false);
+      document.documentElement.classList.remove('dark');
     } else {
-      // Check system preference
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setIsDark(prefersDark);
+      setIsDark(true);
+      document.documentElement.classList.add('dark');
     }
   }, []);
 
-  useEffect(() => {
-    if (mounted) {
-      // Update localStorage
-      localStorage.setItem('theme', isDark ? 'dark' : 'light');
-      
-      // Update document class for Tailwind CSS
-      if (isDark) {
-        document.documentElement.classList.add('dark');
-      } else {
-        document.documentElement.classList.remove('dark');
-      }
-    }
-  }, [isDark, mounted]);
-
   const toggleTheme = () => {
-    setIsDark(!isDark);
+    const newIsDark = !isDark;
+    setIsDark(newIsDark);
+    
+    if (newIsDark) {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('portfolio-theme', 'dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+      localStorage.setItem('portfolio-theme', 'light');
+    }
   };
 
-  // Prevent hydration mismatch
   if (!mounted) {
-    return null;
+    return (
+      <ThemeContext.Provider value={{
+        isDark: true,
+        toggleTheme: () => {},
+        theme: 'dark'
+      }}>
+        {children}
+      </ThemeContext.Provider>
+    );
   }
 
   const value = {
