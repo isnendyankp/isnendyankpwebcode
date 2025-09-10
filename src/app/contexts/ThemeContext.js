@@ -1,5 +1,5 @@
 "use client";
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useLayoutEffect } from 'react';
 
 const ThemeContext = createContext();
 
@@ -20,15 +20,22 @@ export const ThemeProvider = ({ children }) => {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
     const savedTheme = localStorage.getItem('portfolio-theme');
-    if (savedTheme === 'light') {
-      setIsDark(false);
-      document.documentElement.classList.remove('dark');
-    } else {
+    
+    // Default ke dark mode jika belum ada setting
+    if (savedTheme === null) {
       setIsDark(true);
       document.documentElement.classList.add('dark');
+      localStorage.setItem('portfolio-theme', 'dark');
+    } else if (savedTheme === 'dark') {
+      setIsDark(true);
+      document.documentElement.classList.add('dark');
+    } else {
+      setIsDark(false);
+      document.documentElement.classList.remove('dark');
     }
+    
+    setMounted(true);
   }, []);
 
   const toggleTheme = () => {
@@ -44,24 +51,13 @@ export const ThemeProvider = ({ children }) => {
     }
   };
 
-  if (!mounted) {
-    return (
-      <ThemeContext.Provider value={{
-        isDark: true,
-        toggleTheme: () => {},
-        theme: 'dark'
-      }}>
-        {children}
-      </ThemeContext.Provider>
-    );
-  }
-
   const value = {
     isDark,
     toggleTheme,
     theme: isDark ? 'dark' : 'light'
   };
 
+  // Render semua content dengan state default dark, akan di-update setelah mounted
   return (
     <ThemeContext.Provider value={value}>
       {children}

@@ -4,7 +4,7 @@ import ThemeToggle from "./ThemeToggle";
 
 const MenuOverlay = ({ links }) => {
   return (
-    <ul className="flex flex-col py-4 items-center bg-[#121212] dark:bg-white transition-colors duration-300">
+    <ul className="flex flex-col py-4 items-center bg-black dark:bg-[#121212] transition-colors duration-300">
       {links.map((link, index) => (
         <li key={index}>
           <NavLink href={link.href} title={link.title} />

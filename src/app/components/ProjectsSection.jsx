@@ -346,17 +346,21 @@ const ProjectsSection = () => {
 
     const paginate = (pageNumber) => {
         setCurrentPage(pageNumber);
+        setShouldScrollOnPageChange(true);
     };
 
-    // Scroll to top of projects section when page changes
+    // Scroll to top of projects section when page changes (only for pagination)
     const isInitialMount = useRef(true);
+    const [shouldScrollOnPageChange, setShouldScrollOnPageChange] = useState(false);
+    
     useEffect(() => {
         if (isInitialMount.current) {
             isInitialMount.current = false;
-        } else {
+        } else if (shouldScrollOnPageChange) {
             projectsSectionRef.current?.scrollIntoView({ behavior: 'smooth' });
+            setShouldScrollOnPageChange(false);
         }
-    }, [currentPage]);
+    }, [currentPage, shouldScrollOnPageChange]);
 
     return (
         <section id="projects" ref={projectsSectionRef} className="py-24 scroll-mt-24">

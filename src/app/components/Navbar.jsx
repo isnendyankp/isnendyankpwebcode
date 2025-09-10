@@ -31,9 +31,9 @@ const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     
     return (
-        <nav className="fixed top-0 left-0 right-0 z-10 bg-white dark:bg-[#121212] bg-opacity-100 dark:bg-opacity-100 transition-colors duration-300">
+        <nav className="fixed top-0 left-0 right-0 z-10 bg-black dark:bg-[#121212] bg-opacity-100 dark:bg-opacity-100 transition-colors duration-300">
             <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-                <Link href="/" className="text-2xl md:text-5xl text-gray-900 dark:text-white font-semibold">
+                <Link href="/" className="text-2xl md:text-5xl text-black dark:text-white font-semibold">
                         <Image src="/images/projects/Logo.png" alt="Logo" width={50} height={50} />
                     </Link>
                 {/* Mobile Menu Button */}
@@ -41,12 +41,12 @@ const Navbar = () => {
                     {
                         navbarOpen ? (
                             <button 
-                                className="flex items-center px-3 py-2 border rounded border-gray-600 dark:border-slate-200 text-gray-600 dark:text-slate-200 hover:text-gray-900 dark:hover:text-white hover:border-gray-900 dark:hover:border-white transition-colors duration-300" 
+                                className="flex items-center px-3 py-2 border rounded border-black dark:border-slate-200 text-black dark:text-slate-200 hover:text-black dark:hover:text-white hover:border-black dark:hover:border-white transition-colors duration-300" 
                                 onClick={() => setNavbarOpen(false)}
                             ><XMarkIcon className="h-5 w-5"/></button>
                         ) : (
                             <button 
-                                className="flex items-center px-3 py-2 border rounded border-gray-600 dark:border-slate-200 text-gray-600 dark:text-slate-200 hover:text-gray-900 dark:hover:text-white hover:border-gray-900 dark:hover:border-white transition-colors duration-300" 
+                                className="flex items-center px-3 py-2 border rounded border-black dark:border-slate-200 text-black dark:text-slate-200 hover:text-black dark:hover:text-white hover:border-black dark:hover:border-white transition-colors duration-300" 
                                 onClick={() => setNavbarOpen(true)}
                             ><Bars3Icon className="h-5 w-5" /></button>
                         )
