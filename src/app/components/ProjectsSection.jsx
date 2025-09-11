@@ -3,6 +3,7 @@ import React from 'react'
 import { useState, useRef, useEffect } from "react";
 import ProjectTag from "./ProjectTag";
 import ProjectCard from "./ProjectCard";
+import ProjectCardSkeleton from "./ProjectCardSkeleton";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import Pagination from "./Pagination";
 
@@ -317,6 +318,7 @@ const ProjectsSection = () => {
     const [tag, setTag] = useState("All");
     const [searchQuery, setSearchQuery] = useState(""); // New state for search
     const [currentPage, setCurrentPage] = useState(1);
+    const [isLoading, setIsLoading] = useState(true); // Loading state
     const projectsPerPage = 6;
     const projectsSectionRef = useRef(null);
 
@@ -348,6 +350,15 @@ const ProjectsSection = () => {
         setCurrentPage(pageNumber);
         setShouldScrollOnPageChange(true);
     };
+
+    // Simulate loading effect
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsLoading(false);
+        }, 1500); // 1.5 second loading simulation
+        
+        return () => clearTimeout(timer);
+    }, []);
 
     // Scroll to top of projects section when page changes (only for pagination)
     const isInitialMount = useRef(true);
@@ -406,17 +417,25 @@ const ProjectsSection = () => {
 
             {/* Mapping Projects */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-12">
-                {currentProjects.map((project) => (
-                    <ProjectCard
-                        key={project.id}
-                        title={project.title}
-                        description={project.description}
-                        imgUrl={project.image}
-                        tags={project.tag}
-                        gitUrl={project.gitUrl}
-                        deployUrl={project.deployUrl}
-                    />
-                ))}
+                {isLoading ? (
+                    // Show skeleton loading
+                    Array.from({ length: projectsPerPage }).map((_, index) => (
+                        <ProjectCardSkeleton key={`skeleton-${index}`} />
+                    ))
+                ) : (
+                    // Show actual projects
+                    currentProjects.map((project) => (
+                        <ProjectCard
+                            key={project.id}
+                            title={project.title}
+                            description={project.description}
+                            imgUrl={project.image}
+                            tags={project.tag}
+                            gitUrl={project.gitUrl}
+                            deployUrl={project.deployUrl}
+                        />
+                    ))
+                )}
             </div>
             <Pagination 
                 projectsPerPage={projectsPerPage}
