@@ -31,7 +31,7 @@ const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     
     return (
-        <nav className="fixed top-0 left-0 right-0 z-10 bg-black dark:bg-[#121212] bg-opacity-100 dark:bg-opacity-100 transition-colors duration-300">
+        <nav className="fixed top-0 left-0 right-0 z-10 bg-black dark:bg-[#121212] bg-opacity-100 dark:bg-opacity-100 border-b-2 border-gray-800 dark:border-gray-600 shadow-lg transition-colors duration-300">
             <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
                 <Link href="/" className="text-2xl md:text-5xl text-black dark:text-white font-semibold">
                         <Image src="/images/projects/Logo.png" alt="Logo" width={50} height={50} />
