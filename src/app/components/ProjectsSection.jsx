@@ -365,14 +365,14 @@ const ProjectsSection = () => {
     return (
         <section id="projects" ref={projectsSectionRef} className="py-24 scroll-mt-24">
             {/* Projects */}
-            <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+            <h2 className="text-center text-3xl sm:text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
                 My Projects
             </h2>
 
             {/* Search and Filter */}
             <div className="flex flex-col items-center gap-8 mb-8">
                 {/* Search Input */}
-                <div className="relative w-full md:w-1/2">
+                <div className="relative w-full sm:w-3/4 md:w-1/2">
                     <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                         <MagnifyingGlassIcon className="h-5 w-5 text-[#9CA2A9]" />
                     </div>
@@ -385,7 +385,7 @@ const ProjectsSection = () => {
                     />
                 </div>
                 {/* Filter Buttons */}
-                <div className="text-white flex flex-row justify-center items-center gap-2">
+                <div className="text-white flex flex-wrap justify-center items-center gap-2 px-4">
                     <ProjectTag
                         onClick={handleTagChange}
                         name="All"
@@ -405,7 +405,7 @@ const ProjectsSection = () => {
             </div>
 
             {/* Mapping Projects */}
-            <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-12">
                 {currentProjects.map((project) => (
                     <ProjectCard
                         key={project.id}
