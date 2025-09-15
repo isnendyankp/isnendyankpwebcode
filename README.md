@@ -1,8 +1,8 @@
-# ISNendyanKP Portfolio Website
+# IsnendyanKP Portfolio Website
 
 A modern, responsive portfolio website built with Next.js and Tailwind CSS. This portfolio showcases my projects, skills, and professional experience with a clean, interactive design and smooth animations.
 
-![Portfolio Website](public/images/projects/Base.png)
+[Image #1]
 
 ## Features
 
