@@ -136,5 +136,5 @@ Feel free to reach out if you have any questions or would like to collaborate!
 
 - **Portfolio**: [Your Portfolio URL]
 - **Email**: [Your Email]
-- **LinkedIn**: [Your LinkedIn]
+- **LinkedIn**: [https://www.linkedin.com/in/isnendyan/](https://www.linkedin.com/in/isnendyan/)
 - **GitHub**: [Your GitHub]
