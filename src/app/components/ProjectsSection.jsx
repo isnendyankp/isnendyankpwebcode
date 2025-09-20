@@ -306,7 +306,7 @@ const projectsData = [
         ],
         outro: "This project showcases my ability to work with modern tech stacks including React, Next.js, TypeScript, and collaborative development in building scalable business solutions."
       },
-      image: "",
+      image: "/images/projects/Yakuse.png",
       tag: ["All", "Bootcamp Project"],
       deployUrl: "https://yakuse.vercel.app/",
       gitUrl: "https://github.com/IryIndriyanto/yakuse-fe",
