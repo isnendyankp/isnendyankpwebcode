@@ -19,6 +19,7 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, deployUrl}) => {
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                unoptimized={true}
             />
             <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">  
                 {/* Code Icon */}
