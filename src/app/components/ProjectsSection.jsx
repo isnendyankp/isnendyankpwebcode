@@ -144,7 +144,7 @@ const projectsData = [
           ],
           outro: "This project was an excellent exercise in implementing the HTML Drag and Drop API and manipulating the DOM to build a dynamic, interactive user interface."
         },
-        image: "/images/projects/Draganddrop.png",
+        image: "/images/projects/DragAndDrop.png",
         tag: ["All", "Mini Project"],
         deployUrl: "https://isnendyankp.github.io/draganddrop.github.io/",
         gitUrl: "https://github.com/isnendyankp/draganddrop.github.io",
@@ -216,7 +216,7 @@ const projectsData = [
           ],
           outro: "This project is an excellent showcase of consuming third-party REST APIs, handling asynchronous JavaScript operations, and dynamically manipulating the DOM to create an interactive and engaging user experience."
         },
-        image: "/images/projects/Nasapod.png",
+        image: "/images/projects/NasaPOD.png",
         tag: ["All", "Mini Project"],
         deployUrl: "https://isnendyankp.github.io/nasaapod.github.io/",
         gitUrl: "https://github.com/isnendyankp/nasaapod.github.io",
