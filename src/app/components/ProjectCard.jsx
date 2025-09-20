@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline'
 
 const ProjectCard = ({imgUrl, title, description, gitUrl, deployUrl}) => {
@@ -11,10 +12,14 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, deployUrl}) => {
   return (
     <div>
         {/* Image */}
-        <div 
-            className="h-52 md:h-72 rounded-t-xl relative group"
-            style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
-        >
+        <div className="h-52 md:h-72 rounded-t-xl relative group overflow-hidden">
+            <Image 
+                src={imgUrl}
+                alt={title}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
             <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">  
                 {/* Code Icon */}
                 <Link href={gitUrl} target="_blank" rel="noopener noreferrer" title="GitHub Source" className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link">
