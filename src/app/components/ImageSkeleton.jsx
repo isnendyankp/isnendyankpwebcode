@@ -1,9 +1,9 @@
 const ImageSkeleton = ({ className = "" }) => {
   return (
-    <div className={`animate-pulse bg-gray-600 dark:bg-gray-700 rounded-full ${className}`}>
+    <div className={`animate-pulse bg-gray-600 rounded-full ${className}`}>
       <div className="flex items-center justify-center h-full">
         <svg 
-          className="w-12 h-12 text-gray-500 dark:text-gray-600" 
+          className="w-12 h-12 text-gray-500" 
           fill="currentColor" 
           viewBox="0 0 24 24"
         >

@@ -9,8 +9,8 @@ const Herosection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-12">
             {/* Section Left */}
             <div className="col-span-12 sm:col-span-7 place-self-center text-center sm:text-left">
-                <h1 className="text-black dark:text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold transition-colors duration-300">
-                    <span className='text-transparent bg-clip-text bg-gradient-to-br from-purple-600 via-pink-600 to-red-500 dark:from-blue-500 dark:via-blue-700 dark:to-indigo-300'>Hello, I'm{" "}</span>
+                <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+                    <span className='text-transparent bg-clip-text bg-gradient-to-br from-purple-600 via-pink-600 to-red-500'>Hello, I'm{" "}</span>
                     <br></br>
                     <TypeAnimation
                             sequence={[
@@ -26,23 +26,23 @@ const Herosection = () => {
                             wrapper="span"
                             speed={50}
                             repeat={Infinity}
-                            className="text-black dark:!text-white transition-colors duration-300"
+                            className="text-white"
                     />  
                 </h1>
-                <p className="text-black dark:text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl transition-colors duration-300">
+                <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
                     I'm a software engineer based in Indonesia specializing in
-                    <span className="text-black dark:text-white transition-colors duration-300"> Software Engineer | Frontend Web Developer | QA Automation</span>
+                    <span className="text-white"> Software Engineer | Frontend Web Developer | QA Automation</span>
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                     <button 
                         onClick={() => window.open('https://www.linkedin.com/in/isnendyan', '_blank')}
-                        className="px-6 py-3 w-full sm:w-auto rounded-full bg-gradient-to-br from-purple-600 via-pink-600 to-red-500 dark:from-blue-500 dark:via-blue-700 dark:to-indigo-300 text-white hover:from-purple-700 hover:via-pink-700 hover:to-red-600 dark:hover:from-blue-600 dark:hover:via-blue-800 dark:hover:to-indigo-400 transition-all duration-300">
+                        className="px-6 py-3 w-full sm:w-auto rounded-full bg-gradient-to-br from-purple-600 via-pink-600 to-red-500 text-white hover:from-purple-700 hover:via-pink-700 hover:to-red-600 transition-all duration-300">
                         Hire Me
                     </button>
                     <button 
                         onClick={() => window.open('https://drive.google.com/file/d/1Ap1elAquFcqAP5_If_r_NOZTD7wlXCHq/view?usp=drive_link', '_blank')}
-                        className="px-1 py-1 w-full sm:w-auto rounded-full bg-gradient-to-br from-purple-600 via-pink-600 to-red-500 dark:from-blue-500 dark:via-blue-700 dark:to-indigo-300 text-white transition-all duration-300">
-                        <span className="block bg-white dark:bg-[#121212] hover:bg-gray-100 dark:hover:bg-slate-800 rounded-full px-5 py-2 text-black dark:text-white transition-colors duration-300">
+                        className="px-1 py-1 w-full sm:w-auto rounded-full bg-gradient-to-br from-purple-600 via-pink-600 to-red-500 text-white transition-all duration-300">
+                        <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 text-white transition-colors duration-300">
                             Download CV
                         </span>
                     </button>
